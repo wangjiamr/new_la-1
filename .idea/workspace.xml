@@ -94,12 +94,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appstyle.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="appstyle.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/appstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="203" column="25" selection-start="13260" selection-end="13260" vertical-scroll-proportion="0.30448717" vertical-offset="5196" max-vertical-offset="12582">
+            <state line="203" column="25" selection-start="13260" selection-end="13260" vertical-scroll-proportion="0.0" vertical-offset="5196" max-vertical-offset="12582">
               <folding>
                 <marker date="1420465409750" expanded="true" signature="9007:9029" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="n_list.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/n_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="528" column="10" selection-start="31766" selection-end="31766" vertical-scroll-proportion="0.4181416" vertical-offset="594" max-vertical-offset="1674">
+              <folding>
+                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -617,17 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/n_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="40" selection-start="1802" selection-end="1802" vertical-scroll-proportion="-10.90625" vertical-offset="272" max-vertical-offset="1674">
-          <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="63" selection-start="217" selection-end="217" vertical-scroll-proportion="-2.5" vertical-offset="82" max-vertical-offset="1647">
@@ -758,9 +760,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/appstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="25" selection-start="13260" selection-end="13260" vertical-scroll-proportion="0.30448717" vertical-offset="5196" max-vertical-offset="12582">
+        <state line="203" column="25" selection-start="13260" selection-end="13260" vertical-scroll-proportion="0.0" vertical-offset="5196" max-vertical-offset="12582">
           <folding>
             <marker date="1420465409750" expanded="true" signature="9007:9029" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/n_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="528" column="10" selection-start="31766" selection-end="31766" vertical-scroll-proportion="0.4181416" vertical-offset="594" max-vertical-offset="1674">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
