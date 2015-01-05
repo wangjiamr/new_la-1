@@ -201,7 +201,7 @@
 .process-main .form-main{margin:0 auto;height:100%;}
 .process-content{position:relative;overflow:hidden;height:100%;}
 .LineBt{background-position: 0 bottom;}
-.processlist{width:300px;min-height:760px;padding:10px;padding-top:70px;margin:0 6px 0 7px;border:0;position: relative;border-radius:4px;background: url("../img/mask70.png") repeat;}
+.processlist{width:300px;padding:10px;padding-top:70px;margin:0 6px 0 7px;border:0;position: relative;border-radius:4px;background: url("../img/mask70.png") repeat;}
 .processlist_inner{background:#fff;padding:20px 10px;border-radius:4px;margin-right:20px;}
 .process-in{position:absolute;width: 9999px;}
 .pro_title{margin-top:-60px;margin-left:25px;margin-bottom:10px;}

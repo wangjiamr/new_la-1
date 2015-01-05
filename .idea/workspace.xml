@@ -45,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="909" column="50" selection-start="51525" selection-end="51525" vertical-scroll-proportion="0.7787611" vertical-offset="9880" max-vertical-offset="11448">
+            <state line="909" column="50" selection-start="51525" selection-end="51525" vertical-scroll-proportion="-22.0" vertical-offset="9880" max-vertical-offset="11448">
               <folding>
                 <element signature="tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#5;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -72,6 +72,35 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="365" column="65" selection-start="21170" selection-end="21170" vertical-scroll-proportion="0.0" vertical-offset="9494" max-vertical-offset="16416">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_process.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/form_process.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="119" selection-start="3908" selection-end="3908" vertical-scroll-proportion="-2.9375" vertical-offset="2309" max-vertical-offset="3213">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/process.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="46" selection-start="1508" selection-end="1508" vertical-scroll-proportion="-18.5625" vertical-offset="162" max-vertical-offset="19062">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appstyle.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/appstyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="203" column="25" selection-start="13260" selection-end="13260" vertical-scroll-proportion="0.30448717" vertical-offset="5196" max-vertical-offset="12582">
+              <folding>
+                <marker date="1420465409750" expanded="true" signature="9007:9029" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,7 +135,6 @@
         <option value="$PROJECT_DIR$/js/Mutual.js" />
         <option value="$PROJECT_DIR$/template/list.html" />
         <option value="$PROJECT_DIR$/template/apply_form.html" />
-        <option value="$PROJECT_DIR$/css/appstyle.css" />
         <option value="$PROJECT_DIR$/template/creat.html" />
         <option value="$PROJECT_DIR$/template/apply.html" />
         <option value="$PROJECT_DIR$/template/process.html" />
@@ -116,6 +144,7 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/global.css" />
         <option value="$PROJECT_DIR$/template/home.html" />
+        <option value="$PROJECT_DIR$/css/appstyle.css" />
       </list>
     </option>
   </component>
@@ -611,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/appstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="341" column="66" selection-start="22901" selection-end="22901" vertical-scroll-proportion="0.0" vertical-offset="9138" max-vertical-offset="12582">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/creat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="504" column="60" selection-start="29317" selection-end="29317" vertical-scroll-proportion="0.0" vertical-offset="13608" max-vertical-offset="18927">
@@ -658,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/form_process.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="3213">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/process_admin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="47" selection-start="1072" selection-end="1072" vertical-scroll-proportion="-11.8125" vertical-offset="297" max-vertical-offset="1485">
@@ -679,15 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="96" column="72" selection-start="4618" selection-end="4618" vertical-scroll-proportion="0.0" vertical-offset="2592" max-vertical-offset="15525">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/process.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="683" column="38" selection-start="48956" selection-end="48956" vertical-scroll-proportion="-20.25" vertical-offset="0" max-vertical-offset="1269">
-          <folding>
-            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,7 +724,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="909" column="50" selection-start="51525" selection-end="51525" vertical-scroll-proportion="0.7787611" vertical-offset="9880" max-vertical-offset="11448">
+        <state line="909" column="50" selection-start="51525" selection-end="51525" vertical-scroll-proportion="-22.0" vertical-offset="9880" max-vertical-offset="11448">
           <folding>
             <element signature="tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#5;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -732,6 +738,29 @@
             <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#div#8;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#a#2;n#p#0;n#div#0;n#div#0;n#div#9;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/form_process.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="119" selection-start="3908" selection-end="3908" vertical-scroll-proportion="-2.9375" vertical-offset="2309" max-vertical-offset="3213">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/process.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="46" selection-start="1508" selection-end="1508" vertical-scroll-proportion="-18.5625" vertical-offset="162" max-vertical-offset="19062">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/appstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="25" selection-start="13260" selection-end="13260" vertical-scroll-proportion="0.30448717" vertical-offset="5196" max-vertical-offset="12582">
+          <folding>
+            <marker date="1420465409750" expanded="true" signature="9007:9029" placeholder="{...}" />
           </folding>
         </state>
       </provider>
