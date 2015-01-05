@@ -79,6 +79,9 @@ a:hover,.news-list li a:hover{text-decoration:none;}
 a.add:hover{text-decoration: underline;}
 .color-info{color:#e60012;}
 .tags{color: #f11b1b;}
+.Re_item li.nodata{padding-top:0;}
+.Re_item li.nodata a:hover,.Re_item li.nodata:hover{padding-top:0;cursor:default;background:none;}
+.Re_item li.nodata a em{color:#ccc;}
 /*width*/
 .width-40{width:40px!important;}
 .width-50{width:50px!important;}
