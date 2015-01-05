@@ -81,7 +81,7 @@ a.add:hover{text-decoration: underline;}
 .tags{color: #f11b1b;}
 .Re_item li.nodata{padding-top:0;}
 .Re_item li.nodata a:hover,.Re_item li.nodata:hover{padding-top:0;cursor:default;background:none;}
-.Re_item li.nodata a em{color:#ccc;}
+.Re_item li.nodata a em,.Re_item li.nodata a{color:#aaa;}
 /*width*/
 .width-40{width:40px!important;}
 .width-50{width:50px!important;}
@@ -360,7 +360,10 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .pop_tip{width:300px;height:190px;margin:-95px 0 0 -150px;border-color:#999;box-shadow: 0 0 3px #666;}
 .pop_tip .pop_top{height:90px;line-height: 90px;}
 .pop_tip .btn{background:#f3a818;border-radius:4px;}
-
+.pop_ie{width:760px;height:480px;margin:-240px 0 0 -380px;border-color:#aaa;box-shadow:0 0 10px #aaa;}
+.explorer{background:#d9d9d9;margin:0 5px;position:relative;border-radius:5px;}
+.explorer a{display: inline-block;margin:20px 25px;position:relative;}
+.arrow-t{display:inline-block;width:0;border-left:10px solid #fff;border-right: 10px solid #fff;border-bottom: 10px solid #d9d9d9;position: absolute;top:-10px;left:50%;margin-left:-5px;}
 /*控件*/
 .Iframe{width:99.5%;float:right;}
 .text{border-width:1px;border-style: solid;}
