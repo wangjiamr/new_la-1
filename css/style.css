@@ -296,7 +296,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .Re_item .new_search .new_btn{min-width:24px;width:24px;height:24px;margin:0;padding:0;border-radius:0 3px 3px 0;}
 .Re_item .new_search .new_btn .Icon{margin:3px 0 0 0;width:16px;height:16px;background-position:-199px -478px;}
 .Re_item ul li{height:30px;line-height:30px;margin-left:-10px;}
-.Re_item ul li:hover{background:#071313;}
+.Re_item ul li:hover,.Re_item ul li.current{background:#071313;}
 .Re_item ul li a{display:block;padding-left:30px;color:#fff;height:30px;line-height:30px;}
 .search_r{width:300px;position:absolute;top:40px;bottom:0;right:0;background: url("../img/mask70.png") repeat;}
 .Re_item .clander{width:95px;}
