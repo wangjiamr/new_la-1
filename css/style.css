@@ -369,16 +369,20 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .data_link ul li{line-height:39px;height:39px;border-bottom:1px solid #eee;text-indent:20px;cursor: pointer;position: relative;}
 .data_link ul li:hover{background-color:#f3f3f3;}
 .data_right ul li:hover{background:none;}
-.data_right ul li a{display: none;}
-.data_right ul li:hover a,.data_right ul li a.a_delete{display: inline;color:#aaa;margin:0 5px;}
+.data_right ul li a,.data_left li a{display: none;}
+.data_right ul li:hover a,.data_right ul li a.a_delete,.data_left li:hover a{display: inline;color:#aaa;margin:0 4px;}
 .data_right ul li a.a_delete{color:#e9505f;margin-left:10px;}
 .data_link .jscroll{height:100%;}
 .data_link .data_right .jscroll{margin-right:5px;}
 .data_right p.alignright{line-height:39px;height:39px;border-bottom:1px solid #aaa;margin:0 20px;}
-.data_link .MakeBtn{width:80px;right: -80px;}
-.data_link .Icon{vertical-align: middle;left:-6px;top:-1px;}
+.data_link .MakeBtn{width:40px;right: -50px;}
+.data_link .Icon{vertical-align: middle;left:-10px;top:-1px;}
 .data_link .MakeBtn .edit{border:0;background:#347cdc;}
-.data_left .has-general{left:20px;top:6px;}
+.data_link .MakeBtn a,.data_link li:hover .MakeBtn a{display:inline-block;margin:0;}
+.data_left li{padding-right:45px;}
+
+.data_left .has-general{width:150px;left:20px;top:6px;}
+.data_left .has-general .int{width:148px;}
 /*适配1024屏幕*/
 .mini .top_nav a{margin:0 2px;padding:0 5px;}
 .mini .ico-bg,.mini .ico-home2,.mini .ico-search{margin-left:10px;}

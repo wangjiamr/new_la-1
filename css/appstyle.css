@@ -155,8 +155,6 @@
 .acc_list li p.txt_hidden:hover{outline:1px solid #347cdc;}
 .acc_list .process_box{background:none;left:10px;top:75%;margin-top:-2px;}
 /*通讯录*/
-.contactOut{position: relative;}
-.contact{}
 .contact-list{width:105%;min-height:305px;}
 .contact-list li{float: left;width:315px;height:48px;line-height:48px;border:1px solid #fff;color:#333;cursor: pointer;margin:0 15px 10px 0;}
 .contact-list li .UserImg{vertical-align:-16px;margin:0 24px 0 10px;}

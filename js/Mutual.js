@@ -10,12 +10,19 @@ $(function(){
         var $this = $(this);
         $this.find('.MakeBtn').stop().animate({width:0},300);
     });
-    $('.list_table_tj tr,.data_left ul li').hover(function(){
+    $('.list_table_tj tr').hover(function(){
         var $this = $(this);
         $this.find('.MakeBtn').stop().animate({right:0},200);
     },function(){
         var $this = $(this);
         $this.find('.MakeBtn').stop().animate({right:-80},300);
+    });
+    $('.data_left ul li').hover(function(){
+        var $this = $(this);
+        $this.find('.MakeBtn').stop().animate({right:-4},200);
+    },function(){
+        var $this = $(this);
+        $this.find('.MakeBtn').stop().animate({right:-50},300);
     });
 //    二级菜单
     var $top_nav_a = $('.top_nav a');
