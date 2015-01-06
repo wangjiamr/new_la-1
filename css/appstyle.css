@@ -9,7 +9,7 @@
 .footer p{color:#aaa;padding-top:10px;}
 .footer p a{color:#347cdc;padding-right:20px;}
 .content{width:100%;height:100%;overflow:hidden;}
-.main{width:1000px;margin:0 auto;padding:0 50px;height:100%;position: relative;}
+.main{width:900px;margin:0 auto;padding:0 50px;height:100%;position: relative;}
 .UserImg,.UserImg img{width:40px;height:40px;border-radius:50em;background:#fff;}
 .item_box .UserImg,.item_box .UserImg img{width:30px;height:30px;}
 .DropDown{position: relative;z-index: 20;width:130px;border-right: 1px solid #ccc;border-left: 1px solid #ccc;padding-left:20px;margin-left:20px;}
@@ -201,9 +201,10 @@
 .process-main .form-main{margin:0 auto;height:100%;}
 .process-content{position:relative;overflow:hidden;height:100%;}
 .LineBt{background-position: 0 bottom;}
-.processlist{width:300px;padding:10px;padding-top:70px;margin:0 6px 0 7px;border:0;position: relative;border-radius:4px;background: url("../img/mask70.png") repeat;}
+.processlist{width:270px;padding:10px;padding-top:70px;margin:0 4px 0 7px;border:0;position: relative;border-radius:4px;background: url("../img/mask70.png") repeat;}
 .processlist_inner{background:#fff;padding:20px 10px;border-radius:4px;margin-right:20px;}
-.process-in{position:absolute;width: 9999px;}
+.process-in{position:absolute;width:9999px;}
+.process-in:hover .ico-delete4{display: inline-block;}
 .pro_title{margin-top:-60px;margin-left:25px;margin-bottom:10px;}
 .pro_title .int{border-radius:4px;background:url("../img/mask10.png") repeat;border:0;}
 .item_box,.drag-box{padding:15px 0 0 10px;border:1px dashed #ccc;position:relative;margin-bottom:30px;line-height:30px;color:#333;border-radius:3px;}
@@ -212,10 +213,11 @@
 .item_box span:hover{text-decoration: underline;cursor: pointer;}
 .item_box span.title{position: absolute;top:-10px;background-color: #fff;padding:5px 10px;line-height:10px;}
 .item_box span.title:hover{text-decoration: none;color:#333;}
-.item_box ul li{height:28px;line-height:28px;}
+.item_box ul li{height:28px;line-height:28px;overflow: hidden;position: relative;}
 .drag-box{position: absolute;z-index:20;width:260px;box-shadow: 0 0 6px #aaa;cursor:move;padding:0;margin:0;color:#888;}
 .drag-mask{position: absolute;top:0;left:0;width:100%;height:100%;z-index:2;}
-.item_box ul li a.floatright{margin:10px -3px 0 0;}
+.item_box ul li a.floatright{display: none;position: absolute;top:2px;right: 10px}
+.item_box ul li:hover a.floatright{display: inline-block;}
 .process_tab{width:100%;}
 .process_tab th{width:75px;color:#888;font-size:14px;}
 .process_tab td{line-height:30px;}

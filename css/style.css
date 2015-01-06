@@ -84,6 +84,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .bottom_nav .ico-b5{background-position:-155px -610px;}
 .bottom_nav .ico-b6{background-position:-155px -650px;}
 .bottom_nav .ico-b7{background-position:-115px -610px;}
+.bottom_nav .ico-b8{background-position:-115px -570px;}
 .bottom_nav a span{position:absolute;z-index:20;top:-35px;left:50%;margin-left:-35px;color:#000;width:70px;height:31px;line-height:24px;background:url("../img/a_span.png");display: inline-block;text-align: center;display: none;opacity: 0;}
 .new_main{width:1000px;margin:0 auto;min-height:200px;margin-top:80px;color:#fff;}
 .top_board{width:800px;margin:0 auto;height:100px;background:url("../img/mask4.png") repeat;border-radius:3px;opacity:0.9;}
@@ -202,6 +203,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .list_table_tj .MakeBtn{width:80px;right:-80px;}
 .delete{background:#e65c5c;}
 .ico-delete,.ico-turn{width:16px;height:16px;background-position: -177px -268px;vertical-align: middle;}/*垃圾箱*/
+.processlist_inner .ico-delete{width:10px;height:10px;background-position: -132px -60px;top:-2px;}
 .ico-turn{background-position:-177px -284px;}
 /*apply*/
 .form_box{position: relative;}
@@ -360,7 +362,18 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .help_inner .card_list{width:260px;height:180px;margin:40px auto;margin-top:50px;}
 .help_card{position: relative;}
 .help_mask{width:424px;height:228px;position: absolute;top:50%;left:50%;margin:-125px 0 0 -212px;z-index:20;}
-
+/*data_link*/
+.data_link{width:600px;background:url("../img/data_bg.jpg") repeat-y;position: absolute;top:100px;bottom:100px;left:50%;margin-left:-300px;border:1px solid #999;box-shadow:0 0 10px #333;border-radius:2px;}
+.data_left,.data_right{width:300px;color:#333;position: relative;}
+.data_link ul li{line-height:39px;height:39px;border-bottom:1px solid #eee;text-indent:20px;cursor: pointer;position: relative;}
+.data_link ul li:hover{background-color:#f3f3f3;}
+.data_right ul li:hover{background:none;}
+.data_right ul li a{display: none;}
+.data_right ul li:hover a,.data_right ul li a.a_delete{display: inline;color:#aaa;margin:0 5px;}
+.data_right ul li a.a_delete{color:#e9505f;margin-left:10px;}
+.data_link .jscroll{height:100%;}
+.data_link .data_right .jscroll{margin-right:5px;}
+.data_right p.alignright{line-height:39px;height:39px;border-bottom:1px solid #aaa;margin:0 20px;}
 
 /*适配1024屏幕*/
 .mini .top_nav a{margin:0 2px;padding:0 5px;}

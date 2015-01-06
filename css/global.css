@@ -248,12 +248,12 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-delete{width: 7px;height:7px;background-position: -71px -128px;}
 .ico-refresh{width:12px;height:10px;background-position: -131px -50px;}
 .R-btns .ico-refresh{width:12px;height:12px;background-position: -177px -249px;}
-.ico-delete{width:10px;height:10px;background-position: -132px -60px;}/*此处待定哦*/
+
 .ico-delete4{width:16px;height:16px;background-position: -131px -105px;}/*此处待定哦*/
 .ico-cut{width:15px;height:15px;background-position:-131px -165px;}
 .ico-acc{width:15px;height:15px;background-position:-131px -180px;vertical-align:-2px;}
 .Btn .ico-acc{width:15px;height:15px;background-position:-48px -215px;vertical-align:-2px;}
-.ico-delete4{position:absolute;right:0;top:-8px;}
+.ico-delete4{position:absolute;left:2px;top:2px;display: none;}
 .td_inner .ico-delete4{right:-8px;display: none;}
 .ico-all{width:21px;height:48px;background:#ccc;position: absolute;left:-21px;top:-1px;display:none;text-align: center;}
 .ico-all:hover{background:#888;}
@@ -302,6 +302,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .account_tab .ico-check{width:14px;height:13px;background-position: -170px -180px}
 .account_tab .check.checked .ico-check{background-position: -170px -198px;}
 .ico-lock,.ico-unlock{width:16px;height:16px;background-position: -131px -16px;margin-left:3px;}
+.ico-lock{top:3px;margin-right:0;}
 .ico-unlock{background-position: -131px 0;top:6px;}
 .ico-down{width:16px;height:14px;background-position:-100px -372px;top:3px;}
 .ico-p-add,.ico-p-minus{width:15px;height:15px;background-position: -155px -60px;}

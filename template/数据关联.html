@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>数据关联</title>
+    <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/appstyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+<div class="layout">
+    <img src="../img/12.jpg" class="autoImg">
+    <div class="layout">
+        <!--header begin-->
+        <div class="admin_header">
+            <div class="top_nav top_nav_bg aligncenter font14">
+                <a href="javascript:;" class="current">数据源</a>
+                <a href="javascript:;" class="">费用类别</a>
+                <a class="new_btn font12 ie-css3" href="javascript:;">添加类别</a>
+                <a href="javascript:;" class="new_btn bg-waring font12 ie-css3">退出编辑</a>
+            </div>
+        </div>
+        <!--header over-->
+        <!--主要内容begin-->
+        <div class="new_main">
+            <div class="data_link clearfix">
+                <div class="data_left floatleft jscroll">
+                    <ul>
+                        <li>
+                            <span>采购费用</span>
+                            <div class="MakeBtn" style="display: block;width: 80px;">
+                                <a href="javascript:;" class="delete" title="删除"><i class="Icon ico-delete"></i></a>
+                                <a href="javascript:;" class="delete" title="删除"><i class="Icon ico-delete"></i></a>
+                            </div>
+                        </li>
+                        <li>支付方式</li>
+                        <li>费用类别</li>
+                        <li>采购费用</li>
+                        <li>支付方式</li>
+                        <li>费用类别</li>
+                        <li>采购费用</li>
+                        <li>支付方式</li>
+                        <li>费用类别</li>
+                        <li>采购费用</li>
+                        <li>支付方式</li>
+                        <li>费用类别</li>
+                    </ul>
+                </div>
+                <div class="data_right floatleft">
+                    <p class="alignright"><a href="javascript:;" class="add">+添加项目</a></p>
+                    <div class="jscroll" style="height:300px;" title="这个的高度是data_link的高度-40">
+                        <ul class="marl20">
+                            <li class="alignright clearfix"><span class="floatleft">采购费用</span><a href="javascript:;">上移</a><a href="javascript:;">下移</a><a href="javascript:;" class="a_delete">删除</a></li>
+                            <li class="alignright clearfix"><span class="floatleft">支付方式</span><a href="javascript:;">上移</a><a href="javascript:;">下移</a><a href="javascript:;" class="a_delete">删除</a></li>
+                            <li class="alignright clearfix"><span class="floatleft">费用类别</span><a href="javascript:;">上移</a><a href="javascript:;">下移</a><a href="javascript:;" class="a_delete">删除</a></li>
+                            <li class="alignright clearfix"><span class="floatleft">采购费用</span><a href="javascript:;">上移</a><a href="javascript:;">下移</a><a href="javascript:;" class="a_delete">删除</a></li>
+                            <li class="alignright clearfix"><span class="floatleft">支付方式</span><a href="javascript:;">上移</a><a href="javascript:;">下移</a><a href="javascript:;" class="a_delete">删除</a></li>
+                            <li class="alignright clearfix"><span class="floatleft">费用类别</span><a href="javascript:;">上移</a><a href="javascript:;">下移</a><a href="javascript:;" class="a_delete">删除</a></li>
+                            <li class="alignright clearfix"><span class="floatleft">采购费用</span><a href="javascript:;">上移</a><a href="javascript:;">下移</a><a href="javascript:;" class="a_delete">删除</a></li>
+                            <li class="alignright clearfix"><span class="floatleft">支付方式</span><a href="javascript:;">上移</a><a href="javascript:;">下移</a><a href="javascript:;" class="a_delete">删除</a></li>
+                            <li class="alignright clearfix"><span class="floatleft">费用类别</span><a href="javascript:;">上移</a><a href="javascript:;">下移</a><a href="javascript:;" class="a_delete">删除</a></li>
+                            <li class="alignright clearfix"><span class="floatleft">采购费用</span><a href="javascript:;">上移</a><a href="javascript:;">下移</a><a href="javascript:;" class="a_delete">删除</a></li>
+                            <li class="alignright clearfix"><span class="floatleft">支付方式</span><a href="javascript:;">上移</a><a href="javascript:;">下移</a><a href="javascript:;" class="a_delete">删除</a></li>
+                            <li class="alignright clearfix"><span class="floatleft">费用类别</span><a href="javascript:;">上移</a><a href="javascript:;">下移</a><a href="javascript:;" class="a_delete">删除</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--主要内容over-->
+    </div>
+</div>
+<link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/imgauto.js"></script>
+<script type="text/javascript" src="../js/Mutual.js"></script>
+<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+    });
+</script>
+</body>
+</html>
