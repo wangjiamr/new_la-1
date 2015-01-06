@@ -26,7 +26,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="94" selection-start="14329" selection-end="14329" vertical-scroll-proportion="-16.28" vertical-offset="5128" max-vertical-offset="13068">
+            <state line="379" column="39" selection-start="26737" selection-end="26737" vertical-scroll-proportion="-15.2" vertical-offset="9853" max-vertical-offset="13149">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="250" column="0" selection-start="13076" selection-end="13076" vertical-scroll-proportion="-11.96" vertical-offset="6451" max-vertical-offset="16443">
+            <state line="414" column="67" selection-start="24768" selection-end="24768" vertical-scroll-proportion="-13.04" vertical-offset="10852" max-vertical-offset="16470">
               <folding />
             </state>
           </provider>
@@ -50,22 +50,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="数据关联.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="数据关联.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/数据关联.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="102" selection-start="1319" selection-end="1319" vertical-scroll-proportion="-11.8125" vertical-offset="459" max-vertical-offset="2511">
+            <state line="30" column="51" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.36363637" vertical-offset="486" max-vertical-offset="2781">
               <folding>
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appstyle.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="角色管理.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/角色管理.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="52" selection-start="4320" selection-end="4320" vertical-scroll-proportion="-11.8125" vertical-offset="2268" max-vertical-offset="7803">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mutual.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Mutual.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="24" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3861">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appstyle.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/appstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="219" column="57" selection-start="14696" selection-end="14696" vertical-scroll-proportion="0.33333334" vertical-offset="5601" max-vertical-offset="12636">
+            <state line="219" column="57" selection-start="14696" selection-end="14696" vertical-scroll-proportion="0.0" vertical-offset="5601" max-vertical-offset="12636">
               <folding>
                 <marker date="1420539912374" expanded="true" signature="9006:9028" placeholder="{...}" />
               </folding>
@@ -120,7 +138,6 @@
         <option value="$PROJECT_DIR$/template/creat_form.html" />
         <option value="$PROJECT_DIR$/template/n_list.html" />
         <option value="$PROJECT_DIR$/template/统计分析.html" />
-        <option value="$PROJECT_DIR$/js/Mutual.js" />
         <option value="$PROJECT_DIR$/template/list.html" />
         <option value="$PROJECT_DIR$/template/apply_form.html" />
         <option value="$PROJECT_DIR$/template/creat.html" />
@@ -129,11 +146,13 @@
         <option value="$PROJECT_DIR$/template/search.html" />
         <option value="$PROJECT_DIR$/template/home.html" />
         <option value="$PROJECT_DIR$/template/form_process.html" />
-        <option value="$PROJECT_DIR$/template/数据关联.html" />
-        <option value="$PROJECT_DIR$/css/global.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/template/process.html" />
         <option value="$PROJECT_DIR$/css/appstyle.css" />
+        <option value="$PROJECT_DIR$/js/Mutual.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/template/角色管理.html" />
+        <option value="$PROJECT_DIR$/css/global.css" />
+        <option value="$PROJECT_DIR$/template/数据关联.html" />
       </list>
     </option>
   </component>
@@ -566,11 +585,6 @@
         <state line="74" column="43" selection-start="1562" selection-end="1562" vertical-scroll-proportion="-62.4375" vertical-offset="0" max-vertical-offset="2484" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Mutual.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="59" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.38141027" vertical-offset="588" max-vertical-offset="3861" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="63" selection-start="217" selection-end="217" vertical-scroll-proportion="-2.5" vertical-offset="82" max-vertical-offset="1647">
@@ -647,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/角色管理.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.6272124" vertical-offset="567" max-vertical-offset="7803">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/统计分析.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="378" column="0" selection-start="22964" selection-end="23372" vertical-scroll-proportion="-12.59375" vertical-offset="2" max-vertical-offset="945">
@@ -687,37 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/form_process.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="135" selection-start="3912" selection-end="3912" vertical-scroll-proportion="-3.9375" vertical-offset="2277" max-vertical-offset="3213">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/数据关联.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="102" selection-start="1319" selection-end="1319" vertical-scroll-proportion="-11.8125" vertical-offset="459" max-vertical-offset="2511">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="250" column="0" selection-start="13076" selection-end="13076" vertical-scroll-proportion="-11.96" vertical-offset="6451" max-vertical-offset="16443">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="94" selection-start="14329" selection-end="14329" vertical-scroll-proportion="-16.28" vertical-offset="5128" max-vertical-offset="13068">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/process.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="544" column="72" selection-start="38843" selection-end="38843" vertical-scroll-proportion="-164.47562" vertical-offset="1201" max-vertical-offset="19062">
@@ -738,9 +714,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/appstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="57" selection-start="14696" selection-end="14696" vertical-scroll-proportion="0.33333334" vertical-offset="5601" max-vertical-offset="12636">
+        <state line="219" column="57" selection-start="14696" selection-end="14696" vertical-scroll-proportion="0.0" vertical-offset="5601" max-vertical-offset="12636">
           <folding>
             <marker date="1420539912374" expanded="true" signature="9006:9028" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Mutual.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="24" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3861">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="379" column="39" selection-start="26737" selection-end="26737" vertical-scroll-proportion="-15.2" vertical-offset="9853" max-vertical-offset="13149">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/form_process.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="135" selection-start="3912" selection-end="3912" vertical-scroll-proportion="-3.9375" vertical-offset="2277" max-vertical-offset="3213">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/角色管理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="52" selection-start="4320" selection-end="4320" vertical-scroll-proportion="-11.8125" vertical-offset="2268" max-vertical-offset="7803">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="414" column="67" selection-start="24768" selection-end="24768" vertical-scroll-proportion="-13.04" vertical-offset="10852" max-vertical-offset="16470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/数据关联.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="51" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.36363637" vertical-offset="486" max-vertical-offset="2781">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

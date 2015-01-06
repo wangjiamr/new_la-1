@@ -10,7 +10,7 @@ $(function(){
         var $this = $(this);
         $this.find('.MakeBtn').stop().animate({width:0},300);
     });
-    $('.list_table_tj tr').hover(function(){
+    $('.list_table_tj tr,.data_left ul li').hover(function(){
         var $this = $(this);
         $this.find('.MakeBtn').stop().animate({right:0},200);
     },function(){

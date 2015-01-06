@@ -374,7 +374,10 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .data_link .jscroll{height:100%;}
 .data_link .data_right .jscroll{margin-right:5px;}
 .data_right p.alignright{line-height:39px;height:39px;border-bottom:1px solid #aaa;margin:0 20px;}
-
+.data_link .MakeBtn{width:80px;right: -80px;}
+.data_link .Icon{vertical-align: middle;left:-6px;top:-1px;}
+.data_link .MakeBtn .edit{border:0;background:#347cdc;}
+.data_left .has-general{left:20px;top:6px;}
 /*适配1024屏幕*/
 .mini .top_nav a{margin:0 2px;padding:0 5px;}
 .mini .ico-bg,.mini .ico-home2,.mini .ico-search{margin-left:10px;}
