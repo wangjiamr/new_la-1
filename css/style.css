@@ -188,7 +188,8 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .user_li li p{position: relative;bottom:-7px;}
 .list_table tbody div.inner_td .user_li li .UserImg,.list_table tbody div.inner_td .user_li li .UserImg img{width:32px;height:32px;}
 .user_li li:hover{border-left-color:#347cdc;transition:0.3s;}
-.right_main{width:800px;background:#fff;position:absolute;top:0;right:0;bottom:0;border-left:1px solid #8b8b8b;z-index:200;}
+.right_main,.right_main_2{width:800px;background:#fff;position:absolute;top:0;right:0;bottom:0;border-left:1px solid #8b8b8b;z-index:200;}
+.right_main_2{width:300px;top:40px;}
 .right_main a{color:#333;}
 .AppDetail_in{width:100%;height:100%;position: relative;}
 .AppMakeBtn a{color:#fff;}

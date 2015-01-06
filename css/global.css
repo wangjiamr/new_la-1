@@ -362,10 +362,11 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .pop_tip{width:300px;height:190px;margin:-95px 0 0 -150px;border-color:#999;box-shadow: 0 0 3px #666;}
 .pop_tip .pop_top{height:90px;line-height: 90px;}
 .pop_tip .btn{background:#f3a818;border-radius:4px;}
-.pop_ie{width:760px;height:480px;margin:-240px 0 0 -380px;border-color:#aaa;box-shadow:0 0 10px #aaa;}
-.explorer{background:#d9d9d9;margin:0 5px;position:relative;border-radius:5px;}
-.explorer a{display: inline-block;margin:20px 25px;position:relative;}
-.arrow-t{display:inline-block;width:0;border-left:10px solid #fff;border-right: 10px solid #fff;border-bottom: 10px solid #d9d9d9;position: absolute;top:-10px;left:50%;margin-left:-5px;}
+.pop_ie{width:700px;height:410px;margin:-205px 0 0 -350px;border:none;box-shadow:0 0 10px #aaa;background:#232324;}
+.explorer{background:#333334;margin:0;position:relative;border-radius:5px;}
+.explorer a{display: inline-block;margin:10px 25px;position:relative;height:110px;}
+.explorer a img{vertical-align: bottom;margin-bottom:-10px;}
+.arrow-t{display:inline-block;width:0;border-left:10px solid #232324;border-right: 10px solid #232324;border-bottom: 10px solid #333334;position: absolute;top:-10px;left:50%;margin-left:-5px;}
 /*控件*/
 .Iframe{width:99.5%;float:right;}
 .text{border-width:1px;border-style: solid;}
@@ -376,7 +377,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .off{position: absolute;top:9px;right:8px;font-weight: bold;font-size:26px;color:#aaa;cursor: pointer;}
 .pop_tip .off{width:27px;height:25px;background-position: -199px -215px;top:0;}
 /*input*/
-.int{height:26px;line-height:normal;border:0;border-bottom:1px solid #ccc;border-radius:1px;text-indent:5px;color: #aaa;width: 100%;outline: 0;}
+.int{height:26px;line-height:normal;border:1px solid #ccc;border-radius:1px;text-indent:5px;color: #aaa;width: 100%;outline: 0;}
 .border{border:1px solid #ccc;}
 .int-txt{line-height:18px;width:100%;}
 .has-general{position: relative;}
