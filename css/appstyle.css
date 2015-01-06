@@ -229,7 +229,7 @@
 .item_box .choosedlist li:hover{background-color:#edf5fe;}
 .item_box:hover .jspVerticalBar{display: block;}
 .item_box .change{background:#fff;position:absolute;top:-10px;right:15px;height:20px;line-height:20px;}
-.item_box .search .ser_Results{width:160%;top:inherit;bottom:32px;overflow: hidden;z-index:-100;}
+.item_box .search .ser_Results{width:160%;top:inherit;bottom:25px;overflow: hidden;z-index:-100;}
 .item_box .ser_Results span{display:block;}
 
 /*条件配置弹出*/
