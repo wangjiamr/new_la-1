@@ -274,10 +274,11 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .form_top li .ico-left{background-position:-194px -300px;left:-17px;}
 .form_top li.current .Icon{display: block;}
 .form_bottom{height:49px;border-top:1px solid #d9d9d9;position: absolute;left:0;right:0;bottom:0;background:#f5f5f5;}
-.form_logo{width:30px;height:30px;position: absolute;left:0;top:-1px;font-size:20px;color:#fff;}
-.form_logo img{width:20px;margin-top:5px;}
-.AppMakeBtn .form_logo{width:40px;height:41px;}
-.AppMakeBtn .form_logo img{width:30px;margin-top:5px;}
+/*.form_logo{width:30px;height:30px;position: absolute;left:0;top:-1px;font-size:20px;color:#fff;}*/
+/*.form_logo img{width:20px;margin-top:5px;}*/
+.AppMakeBtn .form_logo{width:40px;height:41px;position: relative;color: #fff;font-size: 22px;}
+.AppMakeBtn .form_logo em{font-size:26px;position: relative;bottom:-7px;}
+.AppMakeBtn .form_logo img{width:40px;height:40px;vertical-align: bottom;position: absolute;top:0;left:0;margin-top: 0;z-index: -1;}
 .form_edit_box .form-main{margin:20px 30px 0 40px;}
 .form_bottom .Btn{height:30px;line-height:30px;width:80px;margin:9px 5px 0;}
 .form_bottom .Btn.Btn-commit{background:#54c34e;}
@@ -289,7 +290,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .switch em{display:inline-block;width:18px;height:18px;line-height:18px;text-align:center;border-radius:3px;background:#939393;vertical-align: top;}
 .switch.on{text-align: left;}
 .switch.on em{background:#347cdc;}
-.form_name{height:40px;line-height:40px;color:#fff;margin-left:50px;}
+.form_name{height:40px;line-height:40px;color:#fff;margin-left:10px;}
 /*搜索*/
 .Results{width:200px;background:url("../img/mask70.png") repeat;position: absolute;right:0;top:40px;}
 .Re_item{padding:10px 0 10px 10px;border-bottom: 1px solid #202531;color:#fff;}

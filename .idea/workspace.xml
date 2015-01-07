@@ -23,38 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="316" column="70" selection-start="22224" selection-end="22224" vertical-scroll-proportion="0.0" vertical-offset="8144" max-vertical-offset="13311">
+            <state line="278" column="12" selection-start="19577" selection-end="19577" vertical-scroll-proportion="0.33261105" vertical-offset="7199" max-vertical-offset="13338">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/home.html">
+      <file leaf-file-name="creat_form.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/creat_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="14" selection-start="3426" selection-end="3426" vertical-scroll-proportion="-11.8125" vertical-offset="1620" max-vertical-offset="4617">
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#div#5;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#6;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#div#6;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#7;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#9;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="n#style#0;n#div#10;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/global.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="329" column="41" selection-start="18338" selection-end="18338" vertical-scroll-proportion="-9.8" vertical-offset="8638" max-vertical-offset="16767">
+            <state line="90" column="116" selection-start="4023" selection-end="4023" vertical-scroll-proportion="-7.3125" vertical-offset="2196" max-vertical-offset="3213">
               <folding />
             </state>
           </provider>
@@ -73,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="统计分析.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="统计分析.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/统计分析.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="368" column="84" selection-start="23265" selection-end="23265" vertical-scroll-proportion="0.46238938" vertical-offset="1499" max-vertical-offset="3105">
+            <state line="368" column="84" selection-start="23265" selection-end="23265" vertical-scroll-proportion="-13.0625" vertical-offset="1499" max-vertical-offset="3105">
               <folding>
                 <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -93,33 +74,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="process_admin.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/process_admin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="32" selection-start="462" selection-end="462" vertical-scroll-proportion="-10.0" vertical-offset="58" max-vertical-offset="1566">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="form_process.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/form_process.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="81" column="51" selection-start="3560" selection-end="3560" vertical-scroll-proportion="-3.9375" vertical-offset="2061" max-vertical-offset="2997">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jscrollpane.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/jscrollpane.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="91" selection-start="2029" selection-end="2029" vertical-scroll-proportion="0.0" vertical-offset="2979" max-vertical-offset="3942">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/config.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="486" selection-end="493" vertical-scroll-proportion="-8.0" vertical-offset="95" max-vertical-offset="1971">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#li#2;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -130,17 +102,6 @@
             <state line="366" column="0" selection-start="24757" selection-end="24757" vertical-scroll-proportion="0.0" vertical-offset="9554" max-vertical-offset="12663">
               <folding>
                 <marker date="1420616646593" expanded="true" signature="9037:9059" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="process.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/process.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="78" selection-start="944" selection-end="944" vertical-scroll-proportion="-7.1875" vertical-offset="310" max-vertical-offset="19062">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,7 +134,6 @@
         <option value="$PROJECT_DIR$/template/apply_form.html" />
         <option value="$PROJECT_DIR$/template/creat.html" />
         <option value="$PROJECT_DIR$/template/apply.html" />
-        <option value="$PROJECT_DIR$/template/process_admin.html" />
         <option value="$PROJECT_DIR$/template/search.html" />
         <option value="$PROJECT_DIR$/template/角色管理.html" />
         <option value="$PROJECT_DIR$/template/form_process.html" />
@@ -186,9 +146,10 @@
         <option value="$PROJECT_DIR$/template/home.html" />
         <option value="$PROJECT_DIR$/template/提交成功.html" />
         <option value="$PROJECT_DIR$/css/global.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/jscrollpane.css" />
         <option value="$PROJECT_DIR$/template/统计分析.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/template/process_admin.html" />
       </list>
     </option>
   </component>
@@ -542,21 +503,9 @@
         <state line="74" column="43" selection-start="1562" selection-end="1562" vertical-scroll-proportion="-62.4375" vertical-offset="0" max-vertical-offset="2484" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/apply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="72" selection-start="4618" selection-end="4618" vertical-scroll-proportion="0.0" vertical-offset="2592" max-vertical-offset="15525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="106" column="33" selection-start="4364" selection-end="4364" vertical-scroll-proportion="0.0" vertical-offset="2862" max-vertical-offset="9693" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/流程管理step1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="313" column="85" selection-start="0" selection-end="17237" vertical-scroll-proportion="-15.75" vertical-offset="333" max-vertical-offset="1269" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/apply_form.html">
@@ -601,16 +550,6 @@
         <state line="21" column="62" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="4050" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/process_admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="66" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.13938053" vertical-offset="549" max-vertical-offset="1485">
-          <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/process.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="78" selection-start="944" selection-end="944" vertical-scroll-proportion="-7.1875" vertical-offset="310" max-vertical-offset="19062">
@@ -635,13 +574,6 @@
             <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/creat_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="116" selection-start="4023" selection-end="4023" vertical-scroll-proportion="-7.3125" vertical-offset="2196" max-vertical-offset="3213">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="316" column="70" selection-start="22224" selection-end="22224" vertical-scroll-proportion="0.0" vertical-offset="8144" max-vertical-offset="13311">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/jscrollpane.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="129" column="91" selection-start="2029" selection-end="2029" vertical-scroll-proportion="0.0" vertical-offset="2979" max-vertical-offset="3942">
@@ -735,7 +660,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/统计分析.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="368" column="84" selection-start="23265" selection-end="23265" vertical-scroll-proportion="0.46238938" vertical-offset="1499" max-vertical-offset="3105">
+        <state line="368" column="84" selection-start="23265" selection-end="23265" vertical-scroll-proportion="-13.0625" vertical-offset="1499" max-vertical-offset="3105">
           <folding>
             <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -748,6 +673,51 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#p#0;tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/apply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="90" selection-start="4513" selection-end="4541" vertical-scroll-proportion="-11.8125" vertical-offset="2187" max-vertical-offset="15525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/creat_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="116" selection-start="4023" selection-end="4023" vertical-scroll-proportion="-7.3125" vertical-offset="2196" max-vertical-offset="3213">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/流程管理step1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="313" column="85" selection-start="16858" selection-end="16858" vertical-scroll-proportion="-15.75" vertical-offset="333" max-vertical-offset="1269">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#4;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/process_admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="32" selection-start="462" selection-end="462" vertical-scroll-proportion="-10.0" vertical-offset="58" max-vertical-offset="1566">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="278" column="12" selection-start="19577" selection-end="19577" vertical-scroll-proportion="0.33261105" vertical-offset="7199" max-vertical-offset="13338">
+          <folding />
         </state>
       </provider>
     </entry>
