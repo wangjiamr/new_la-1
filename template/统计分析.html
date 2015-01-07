@@ -277,6 +277,7 @@
         </div>
         <!--主要内容over-->
         <!--右侧检索条件begin-->
+        <span class="Icon right_arrow" title="展开"></span>
         <div class="search_r">
             <div class="Re_item clearfix">
                 <span class="inlineblock marl10 width-60 alignright">起止日期：</span>
@@ -347,7 +348,7 @@
             </div>
             <div class="Re_item">
                 <span class="inlineblock marl10 width-60 alignright">分组：</span>
-                <div class="search ie-css3 select width-180 inlineblock "><!--加 current，显示下拉列表框-->
+                <div class="search ie-css3 select current width-180 inlineblock "><!--加 current，显示下拉列表框-->
                     <span class="Choosed">申请部门</span>
                     <span class="ico-select"><i class="Icon ico-upd"></i></span>
                     <div class="ser_Results ie-css3">
@@ -355,6 +356,10 @@
                             <ul>
                                 <li>申请人</li>
                                 <li>申请部门</li>
+                                <li>付款方式</li>
+                                <li>付款方式</li>
+                                <li>付款方式</li>
+                                <li>付款方式</li>
                                 <li>付款方式</li>
                             </ul>
                         </div>
@@ -380,13 +385,10 @@
 <script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
 <script type="text/javascript">
     $(function() {
-        function Jscroll(){
-            $('.jscroll').jScrollPane({
-                'mouseWheelSpeed':100,
-                "showArrows":false
-            });
-        }
-        Jscroll();
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
     });
 </script>
 </body>

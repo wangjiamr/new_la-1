@@ -309,6 +309,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .Re_item .tab_nav li:hover{background:none;}
 .Re_item .tab_nav li a:hover{color: #fff;}
 .Re_item .tab_nav li.current a{background-color: #347cdc;color:#fff;}
+.Re_item .tab_nav li.current{background:none;}
 .Re_item .ser_Results li{margin-left:3px;}
 .account_tab{width:100%;color: #fff;}
 .account_tab th,.account_tab td{padding:0 0 10px 0;color:#fff;height:10px;}
