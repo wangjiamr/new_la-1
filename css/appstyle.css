@@ -231,8 +231,8 @@
 .item_box .search .ser_Results{width:160%;top:inherit;bottom:25px;overflow: hidden;z-index:-100;}
 .item_box .ser_Results span{display:block;}
 
-/*条件配置弹出*/
-.cond span{display:inline-block;width:130px;margin:25px 0 0 5px;cursor: pointer;}
+/*条件配置右侧弹出*/
+.cond span{display:inline-block;width:130px;margin:15px 0 0 5px;cursor: pointer;}
 .cond span em{font-family: arial;}
 .process_choose{margin:0 auto;}
 .process_left{width:55%;padding-right:10px;border-right:1px solid #ddd;}
@@ -241,7 +241,9 @@
 .process_li li a .Icon{position: relative;top:7px;margin-left:10px;}
 .process_li li span.floatleft{display: inline-block;line-height:30px;margin-right:10px;}
 .ul_page li{display:block;margin-bottom:40px;}
-.ul_page li p.font14{color:#347cdc;}
+.ul_page li p.font16{border-bottom:1px dotted #aaa;padding-bottom:10px;margin-right:10px;}
+.contact .btn-sure{width:100%;height:40px;line-height:40px;background:#ccc;display: block;position: absolute;left:-10px;padding-left: 10px;color: #fff;}
+.contact .btn-sure.current,.pop_tip .btn.current{background-color:#347cdc;color:#fff;}
 /*填写表单*/
 .form-edit{margin:0 auto;}
 .form-top,.form-txt{width:100%;}
