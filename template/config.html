@@ -9,65 +9,73 @@
 </head>
 <body>
 <div class="content">
-    <div class="nav clearfix">
-        <a href="javascript:;">金额条件</a>
-        <a href="javascript:;">付款条件</a>
-        <a href="javascript:;" class="current">部门条件</a>
-    </div>
-    <div class="contact marl15 mart20">
-        <ul class="ul_page" style="display: block;">
-            <li>
-                <!--金额条件 begin-->
-                <p class="font16 color-3">金额类型</p>
-                <div class="cond color-6">
-                    <span class="radio checked"><i class="Icon ico-check"></i><em>a</em> < 数值</span>
-                    <span class="radio"><i class="Icon ico-check"></i><em>a</em> <=数值</span>
-                    <span class="radio"><i class="Icon ico-check"></i><em>a</em> > 数值</span>
-                    <span class="radio"><i class="Icon ico-check"></i><em>a</em> >= 数值</span>
-                    <span class="radio"><i class="Icon ico-check"></i>数值 < <em>a</em> < 数值</span>
-                    <span class="radio"><i class="Icon ico-check"></i>数值 <= <em>a</em> < 数值</span>
-                    <span class="radio"><i class="Icon ico-check"></i>数值 <= <em>a</em> <= 数值</span>
-                    <span class="radio"><i class="Icon ico-check"></i>数值 < <em>a</em> <= 数值</span>
-                </div>
-                <p class="font16 color-3 mart30">金额数值</p>
-                <div class="mart20">
-                    <input type="text" class="int width-100" placeholder="金额">
-                    <span class="font14 marl5 marr5 color-6">&gt;a&gt;</span>
-                    <input type="text" class="int width-100" placeholder="金额">
-                </div>
-                <!--金额条件 over-->
-            </li>
-        </ul>
-        <ul class="ul_page" style="display: none;">
-            <li>
-                <!--付款条件 begin-->
-                <p class="font16 color-3">金额类型</p>
-                <div class="cond color-6">
-                    <span class="radio checked"><i class="Icon ico-check"></i>现金</span>
-                    <span class="radio"><i class="Icon ico-check"></i>转账</span>
-                    <span class="radio"><i class="Icon ico-check"></i>支票</span>
-                    <span class="radio"><i class="Icon ico-check"></i>其他</span>
-                </div>
-                <!--付款条件 over-->
-            </li>
-        </ul>
-        <ul class="ul_page" style="display: ">
-            <li>
-                <!--部门条件 begin-->
-                <p class="font16 color-3">部门</p>
-                <div class="cond color-6">
-                    <span class="check checked"><i class="Icon ico-check"></i>人力部门</span>
-                    <span class="check"><i class="Icon ico-check"></i>行政部门</span>
-                    <span class="check"><i class="Icon ico-check"></i>市场部</span>
-                    <span class="check"><i class="Icon ico-check"></i>研发部</span>
-                    <span class="check"><i class="Icon ico-check"></i>财务部</span>
-                    <span class="check"><i class="Icon ico-check"></i>后勤部</span>
-                    <span class="check"><i class="Icon ico-check"></i>公关善后部</span>
-                </div>
-                <!--部门条件 over-->
-            </li>
-        </ul>
+    <div class="contact" style="position: absolute;left:10px;right:0;top:0;bottom:40px;">
+        <div class="jscroll" style="height:100%;">
+            <ul class="ul_page mart20">
+                <li>
+                    <!--金额条件 begin-->
+                    <p class="font16 color-3">金额类型</p>
+                    <div class="cond color-6">
+                        <span class="radio checked"><i class="Icon ico-check"></i><em>a</em> < 数值</span>
+                        <span class="radio"><i class="Icon ico-check"></i><em>a</em> <=数值</span>
+                        <span class="radio"><i class="Icon ico-check"></i><em>a</em> > 数值</span>
+                        <span class="radio"><i class="Icon ico-check"></i><em>a</em> >= 数值</span>
+                        <span class="radio"><i class="Icon ico-check"></i>数值 < <em>a</em> < 数值</span>
+                        <span class="radio"><i class="Icon ico-check"></i>数值 <= <em>a</em> < 数值</span>
+                        <span class="radio"><i class="Icon ico-check"></i>数值 <= <em>a</em> <= 数值</span>
+                        <span class="radio"><i class="Icon ico-check"></i>数值 < <em>a</em> <= 数值</span>
+                    </div>
+                    <p class="font16 color-3 mart30">金额数值</p>
+                    <div class="mart20">
+                        <input type="text" class="int width-100" placeholder="金额">
+                        <span class="font14 marl5 marr5 color-6">&gt;a&gt;</span>
+                        <input type="text" class="int width-100" placeholder="金额">
+                    </div>
+                    <!--金额条件 over-->
+                </li>
+                <li>
+                    <!--付款条件 begin-->
+                    <p class="font16 color-3">金额类型</p>
+                    <div class="cond color-6">
+                        <span class="radio checked"><i class="Icon ico-check"></i>现金</span>
+                        <span class="radio"><i class="Icon ico-check"></i>转账</span>
+                        <span class="radio"><i class="Icon ico-check"></i>支票</span>
+                        <span class="radio"><i class="Icon ico-check"></i>其他</span>
+                    </div>
+                    <!--付款条件 over-->
+                </li>
+                <li>
+                    <!--部门条件 begin-->
+                    <p class="font16 color-3">部门</p>
+                    <div class="cond color-6">
+                        <span class="check checked"><i class="Icon ico-check"></i>人力部门</span>
+                        <span class="check"><i class="Icon ico-check"></i>行政部门</span>
+                        <span class="check"><i class="Icon ico-check"></i>市场部</span>
+                        <span class="check"><i class="Icon ico-check"></i>研发部</span>
+                        <span class="check"><i class="Icon ico-check"></i>财务部</span>
+                        <span class="check"><i class="Icon ico-check"></i>后勤部</span>
+                        <span class="check"><i class="Icon ico-check"></i>公关善后部</span>
+                    </div>
+                    <!--部门条件 over-->
+                </li>
+            </ul>
+        </div>
+        <a href="javascript:;" class="btn-sure font14 aligncenter current" title="上面有选项的时候此处加上current">确 定</a>
     </div>
 </div>
+<link rel="stylesheet" type="text/css" href="../css/jscrollpane.css">
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/imgauto.js"></script>
+<script type="text/javascript" src="../js/Mutual.js"></script>
+<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
+    });
+</script>
 </body>
 </html>
