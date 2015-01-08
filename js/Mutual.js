@@ -123,6 +123,10 @@ $(function(){
     $this_form.click(function(){
         $new_main.fadeOut();
         $form_edit_box.show();
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
     });
   });
 

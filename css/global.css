@@ -407,7 +407,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 
 .check_label input,.check_label{margin-right:5px;}
 .check_label{vertical-align:-3px;margin-right:10px;}
-label.tips{position:absolute;right:0;top:0;height:25px;line-height:25px;padding:0 3px;background-color:#fff;color:#999;}
+label.tips{position:absolute;right:0;top:1px;height:25px;line-height:25px;padding:0 3px;background-color:#fff;color:#999;}
 label.tips_txt{left:0;right:inherit;}
 .int:focus{border-color:#347cdc;}
 .has-error input:focus{border-color:#b94a48;}
