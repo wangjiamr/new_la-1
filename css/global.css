@@ -169,7 +169,7 @@ a.add:hover{text-decoration: underline;}
 /*.Icon.go_right:hover{background-position:-30px -80px;}*/
 /*按钮*/
 .Btn{display:inline-block;color:#fff;height:24px;line-height:24px;padding:0 15px;border-radius:2px;}
-.AppDetail_in .AppMakeBtn .Btn{border:0;border-right:1px solid #2b2b2e;width:90px;height:40px;line-height:40px;text-align: center;font-size:14px;padding:0;border-radius:0;}
+.AppDetail_in .AppMakeBtn .Btn{border:0;border-right:1px solid #2b2b2e;width:86px;height:40px;line-height:40px;text-align: center;font-size:14px;padding:0;border-radius:0;}
 .AppDetail_in .AppMakeBtn .Btn:hover,.AppDetail_in .AppMakeBtn .Btn.current,.Btn.current,.form_bottom .Btn{background:#347cdc;color: #fff;}
 .AppDetail_in .AppMakeBtn .btn-acc{width:45px;margin-left:-1px;border-left:1px solid #2b2b2e;}
 .AppDetail_in .AppMakeBtn .btn-acc .Icon{left:0;top:12px;}
@@ -186,7 +186,6 @@ a.add:hover{text-decoration: underline;}
 .free_use:hover{background-position:0 -511px;}
 .now_buy{width:140px;height:38px;background-position:0 -552px;}
 .now_buy:hover{background-position:0 -592px;}
-
 /*background-color and border-color*/
 .bg-347cdc,.pagenation a.current,.btn-make:hover,.Btn-normal:hover,.CheckWord li:hover,.CheckWord li.current{background-color:#347cdc!important;}
 .ListMain .ListTitle:hover{background-color: #f3f3f3;}
@@ -230,14 +229,13 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .down .ico-upd{transform:rotate(180deg);behavior: url(../css/PIE.htc);}
 .ListTitle span:hover .ico-upd,.up .ico-upd,.down .ico-upd,.ico-select .ico-upd{display: inline-block;}
 .item_box .ico-select .ico-upd{vertical-align:-16px;}
-.ico-turn,.ico-print,.ico-croose,.ico-carried{width:25px;height:25px;}
-.ico-turn{background-position:-66px -40px;}
+.ico-print,.ico-croose,.ico-carried{width:25px;height:25px;}
 .ico-print{width:16px;height:14px;background-position:-199px -122px;top:3px;}
 .ico-croose{background-position:-66px -93px;}
 .ico-carried{background-position:-94px -136px;}
 .ico-urgent{width:18px;height:18px;background-position:-80px 0;}
 .ico-print2{width:30px;height:30px;background-position:0 -160px;vertical-align:-11px;}
-.ico-cross,.ico-veto,.ico-turn2,.ico-invite,.ico-notice,.ico-done,.ico-share{width:23px;height:19px;vertical-align: -4px;background-position: -48px -160px;position: relative;left: -6px;}
+.ico-cross,.ico-veto,.ico-turn2,.ico-invite,.ico-notice,.ico-done,.ico-share,.ico-sendto,.ico-turn{width:23px;height:19px;vertical-align: -4px;background-position: -48px -160px;position: relative;left: -6px;}
 .ico-cross{width:14px;height:11px;background-position: -155px -318px;vertical-align: -1px;}
 .ico-veto{width:12px;height:11px;background-position: -155px -303px;vertical-align: 0;}
 .ico-turn2{background-position: -48px -179px;}
@@ -245,6 +243,8 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-notice{width:18px;height:14px;background-position: -155px -338px;}
 .ico-done{background-position: -131px -196px;}
 .ico-share{background-position: -128px -214px;}
+.ico-sendto{background-position: -195px -249px;}
+.ico-turn{background-position: -195px -268px;}
 .ico-delete{width: 7px;height:7px;background-position: -71px -128px;}
 .ico-refresh{width:12px;height:10px;background-position: -131px -50px;}
 .R-btns .ico-refresh{width:12px;height:12px;background-position: -177px -249px;}

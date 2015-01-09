@@ -203,9 +203,8 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .MakeBtn a{display: inline-block;width:40px;height:40px;text-align: center;line-height:40px;float: left;}
 .list_table_tj .MakeBtn{width:80px;right:-80px;}
 .delete{background:#e65c5c;}
-.ico-delete,.ico-turn{width:16px;height:16px;background-position: -177px -268px;vertical-align: middle;}/*垃圾箱*/
+.ico-delete{width:16px;height:16px;background-position: -177px -268px;vertical-align: middle;}/*垃圾箱*/
 .processlist_inner .ico-delete{width:10px;height:10px;background-position: -132px -60px;top:-2px;}
-.ico-turn{background-position:-177px -284px;}
 /*apply*/
 .form_box{position: relative;}
 .form_list li{width:140px;height:140px;float: left;text-align: center;margin:10px 0 0 10px;position: relative;}
