@@ -63,16 +63,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="10" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.38827434" vertical-offset="324" max-vertical-offset="8073">
+            <state line="13" column="20" selection-start="462" selection-end="462" vertical-scroll-proportion="-5.90625" vertical-offset="162" max-vertical-offset="8073">
               <folding>
                 <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apply_form.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/apply_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="96" selection-start="734" selection-end="734" vertical-scroll-proportion="0.38827434" vertical-offset="108" max-vertical-offset="8235">
+              <folding>
+                <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#ul#0;tag#div#0;tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#tbody#0;tag#table#0;tag#div#0;tag#div#0;tag#div#0;tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -504,18 +518,6 @@
         <state line="106" column="33" selection-start="4364" selection-end="4364" vertical-scroll-proportion="0.0" vertical-offset="2862" max-vertical-offset="9693" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/apply_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="60" selection-start="141" selection-end="141" vertical-scroll-proportion="-0.14933628" vertical-offset="270" max-vertical-offset="8235">
-          <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#ul#0;tag#div#0;tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#tbody#0;tag#table#0;tag#div#0;tag#div#0;tag#div#0;tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/角色管理.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="98" column="52" selection-start="4320" selection-end="4320" vertical-scroll-proportion="-11.8125" vertical-offset="2268" max-vertical-offset="7803" />
@@ -677,13 +679,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="10" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.38827434" vertical-offset="324" max-vertical-offset="8073">
+        <state line="13" column="20" selection-start="462" selection-end="462" vertical-scroll-proportion="-5.90625" vertical-offset="162" max-vertical-offset="8073">
           <folding>
             <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/apply_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="96" selection-start="734" selection-end="734" vertical-scroll-proportion="0.38827434" vertical-offset="108" max-vertical-offset="8235">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#ul#0;tag#div#0;tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#tbody#0;tag#table#0;tag#div#0;tag#div#0;tag#div#0;tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
