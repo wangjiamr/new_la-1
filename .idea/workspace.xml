@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="apply_form.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="apply_form.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/apply_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="360" column="75" selection-start="20044" selection-end="20044" vertical-scroll-proportion="0.6415929" vertical-offset="7277" max-vertical-offset="9261">
+            <state line="360" column="86" selection-start="20055" selection-end="20055" vertical-scroll-proportion="-18.125" vertical-offset="7277" max-vertical-offset="9261">
               <folding>
                 <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -60,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="global.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="394" column="41" selection-start="23349" selection-end="23349" vertical-scroll-proportion="0.0" vertical-offset="10169" max-vertical-offset="16767">
+            <state line="394" column="104" selection-start="23412" selection-end="23412" vertical-scroll-proportion="0.50812566" vertical-offset="10169" max-vertical-offset="16767">
               <folding />
             </state>
           </provider>
@@ -110,8 +110,8 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/template/list.html" />
         <option value="$PROJECT_DIR$/css/appstyle.css" />
-        <option value="$PROJECT_DIR$/css/global.css" />
         <option value="$PROJECT_DIR$/template/apply_form.html" />
+        <option value="$PROJECT_DIR$/css/global.css" />
       </list>
     </option>
   </component>
@@ -635,16 +635,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="394" column="41" selection-start="23349" selection-end="23349" vertical-scroll-proportion="0.0" vertical-offset="10169" max-vertical-offset="16767">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/apply_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="360" column="75" selection-start="20044" selection-end="20044" vertical-scroll-proportion="0.6415929" vertical-offset="7277" max-vertical-offset="9261">
+        <state line="360" column="86" selection-start="20055" selection-end="20055" vertical-scroll-proportion="-18.125" vertical-offset="7277" max-vertical-offset="9261">
           <folding>
             <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -654,6 +647,13 @@
             <element signature="tag#thead#0;tag#table#0;tag#div#0;tag#div#0;tag#div#0;tag#div#3;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#textarea#0;n#div#0;n#td#3;n#tr#2;n#tbody#0;n#table#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="394" column="104" selection-start="23412" selection-end="23412" vertical-scroll-proportion="0.50812566" vertical-offset="10169" max-vertical-offset="16767">
+          <folding />
         </state>
       </provider>
     </entry>
