@@ -143,6 +143,7 @@ a.add:hover{text-decoration: underline;}
 .font26{font-size:26px!important;}
 .font30{font-size:30px!important;}
 .l_th{text-decoration:line-through!important;}
+.no_indent{text-indent: 0!important;}
 .txt_hidden,.ser_Results li,.UserName,.prompt_main p,.high_table .table_head .list_table th .inner_td,.high_table .table_main .list_table td .inner_td
 ,.form_list li p.font16,.list_table.search_list tbody div.inner_td{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:inline-block;}
 
@@ -169,7 +170,7 @@ a.add:hover{text-decoration: underline;}
 /*.Icon.go_right:hover{background-position:-30px -80px;}*/
 /*按钮*/
 .Btn{display:inline-block;color:#fff;height:24px;line-height:24px;padding:0 15px;border-radius:2px;}
-.AppDetail_in .AppMakeBtn .Btn{border:0;border-right:1px solid #2b2b2e;width:90px;height:40px;line-height:40px;text-align: center;font-size:14px;padding:0;border-radius:0;}
+.AppDetail_in .AppMakeBtn .Btn{border:0;border-right:1px solid #2b2b2e;width:86px;height:40px;line-height:40px;text-align: center;font-size:14px;padding:0;border-radius:0;}
 .AppDetail_in .AppMakeBtn .Btn:hover,.AppDetail_in .AppMakeBtn .Btn.current,.Btn.current,.form_bottom .Btn{background:#347cdc;color: #fff;}
 .AppDetail_in .AppMakeBtn .btn-acc{width:45px;margin-left:-1px;border-left:1px solid #2b2b2e;}
 .AppDetail_in .AppMakeBtn .btn-acc .Icon{left:0;top:12px;}
@@ -186,7 +187,6 @@ a.add:hover{text-decoration: underline;}
 .free_use:hover{background-position:0 -511px;}
 .now_buy{width:140px;height:38px;background-position:0 -552px;}
 .now_buy:hover{background-position:0 -592px;}
-
 /*background-color and border-color*/
 .bg-347cdc,.pagenation a.current,.btn-make:hover,.Btn-normal:hover,.CheckWord li:hover,.CheckWord li.current{background-color:#347cdc!important;}
 .ListMain .ListTitle:hover{background-color: #f3f3f3;}
@@ -230,14 +230,13 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .down .ico-upd{transform:rotate(180deg);behavior: url(../css/PIE.htc);}
 .ListTitle span:hover .ico-upd,.up .ico-upd,.down .ico-upd,.ico-select .ico-upd{display: inline-block;}
 .item_box .ico-select .ico-upd{vertical-align:-16px;}
-.ico-turn,.ico-print,.ico-croose,.ico-carried{width:25px;height:25px;}
-.ico-turn{background-position:-66px -40px;}
+.ico-print,.ico-croose,.ico-carried{width:25px;height:25px;}
 .ico-print{width:16px;height:14px;background-position:-199px -122px;top:3px;}
 .ico-croose{background-position:-66px -93px;}
 .ico-carried{background-position:-94px -136px;}
 .ico-urgent{width:18px;height:18px;background-position:-80px 0;}
 .ico-print2{width:30px;height:30px;background-position:0 -160px;vertical-align:-11px;}
-.ico-cross,.ico-veto,.ico-turn2,.ico-invite,.ico-notice,.ico-done,.ico-share{width:23px;height:19px;vertical-align: -4px;background-position: -48px -160px;position: relative;left: -6px;}
+.ico-cross,.ico-veto,.ico-turn2,.ico-invite,.ico-notice,.ico-done,.ico-share,.ico-sendto,.ico-turn{width:23px;height:19px;vertical-align: -4px;background-position: -48px -160px;position: relative;left: -6px;}
 .ico-cross{width:14px;height:11px;background-position: -155px -318px;vertical-align: -1px;}
 .ico-veto{width:12px;height:11px;background-position: -155px -303px;vertical-align: 0;}
 .ico-turn2{background-position: -48px -179px;}
@@ -245,6 +244,8 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-notice{width:18px;height:14px;background-position: -155px -338px;}
 .ico-done{background-position: -131px -196px;}
 .ico-share{background-position: -128px -214px;}
+.ico-sendto{background-position: -195px -249px;}
+.ico-turn{background-position: -195px -268px;}
 .ico-delete{width: 7px;height:7px;background-position: -71px -128px;}
 .ico-refresh{width:12px;height:10px;background-position: -131px -50px;}
 .R-btns .ico-refresh{width:12px;height:12px;background-position: -177px -249px;}
@@ -304,7 +305,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-lock,.ico-unlock{width:16px;height:16px;background-position: -131px -16px;margin-left:3px;}
 .ico-lock{top:3px;margin-right:0;}
 .ico-unlock{background-position: -131px 0;top:6px;}
-.ico-down{width:16px;height:14px;background-position:-100px -372px;top:3px;}
+.ico-down{width:16px;height:14px;background-position:-70px -403px;top:3px;}
 .ico-p-add,.ico-p-minus{width:15px;height:15px;background-position: -155px -60px;}
 .ico-p-minus{background-position: -155px -75px;}
 .ico-arrow-top{width:17px;height:12px;background-position:-131px -75px;padding:0;}
@@ -328,6 +329,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-user,.ico-user2{width:14px;height:13px;background-position:-52px -232px;margin-right:5px;top:2px;}
 .ico-user2{background-position:-52px -249px;}
 .ico-ok{width:26px;height:26px;background-position:-44px -266px;margin-left:3px;}
+.right_arrow{width:20px;height:100px;background-position:-44px -476px;position: absolute;right:0;top:50%;margin-top:-50px;}
 /*表单图标背景和ico*/
 .bg{display: inline-block;width:48px;height:48px;text-align: center;line-height: 48px;position: relative;border-radius:50em;behavior: url(../css/PIE.htc);}
 .ico{width: 22px;height:22px;vertical-align: -6px;position:absolute;top: 50%;left:50%;margin:-11px 0 0 -11px;}
@@ -341,6 +343,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 /*弹出*/
 .loading{position:absolute;width:50px;height:50px;top:50%;left:50%;margin:-25px 0 0 -25px;z-index:200;}
 .loading img{width:100%;-webkit-animation:spin 650ms infinite linear;animation:spin 650ms infinite linear;}
+.loading_mini{width:35px;height:35px;margin:-17px 0 0 -17px;}
 .mask{width: 100%;height: 100%;position: fixed;top:0;left:0;z-index:20;}
 .sending,.no_data{width:220px;height:170px;margin:-85px 0 0 -110px;background: url("../img/mask70.png") repeat;}
 .no_data{position:fixed;width:300px;height:100px;top:50%;left:50%;margin:-50px 0 0 -150px;color:#fff;line-height:100px;z-index:10;border-radius:3px;}
@@ -360,10 +363,12 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .pop_waring .pop_top,.pop_waring .btn{background:#ffa100;}
 .pop_top p.p-top10{opacity:0.5;filter:Alpha(Opacity=50);}
 .pop_tip{width:240px;height:120px;margin:-60px 0 0 -120px;border-color:#999;box-shadow: 0 0 3px #666;}
-.pop_tip .pop_top{height:90px;line-height:90px;}
-.pop_tip p.clearfix{position: absolute;left:0;bottom:-1px;width:100%;}
-.pop_tip .btn{background:#eee;border-radius:0;margin:0;padding:0;width:50%;float: left;color:#888;border-top:1px solid #d3d4d5;}
-.pop_tip .btn.current{border-color:#347cdc;}
+.pop_tip_r{height:120px;margin:-60px 0 0 -120px;}
+.pop_tip .pop_top{height:80px;line-height:80px;}
+.pop_tip_r p.clearfix{position: absolute;left:0;bottom:-1px;width:100%;}
+.pop_tip .btn{background-color:#f3a818;border-radius:4px;}
+.pop_tip_r .btn{background:#eee;border-radius:0;margin:0;padding:0;width:50%;float: left;color:#888;border-top:1px solid #d3d4d5;}
+.pop_tip_r .btn.current{border-color:#347cdc;}
 .pop_ie{width:700px;height:410px;margin:-205px 0 0 -350px;border:none;box-shadow:0 0 10px #aaa;background:#232324;}
 .explorer{background:#333334;margin:0;position:relative;border-radius:5px;}
 .explorer a{display: inline-block;margin:10px 25px;position:relative;height:110px;}
@@ -374,20 +379,21 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .text{border-width:1px;border-style: solid;}
 .TurnTxt{width:96.5%;height:66px;padding:6px 10px;border-radius:4px;}
 .message_box{width:236px;height:auto;position:fixed;top:50px;right:0;z-index:99;}
-.message_box_mid{width:387px;top:10%;right:50%;margin-right:-193px;}
+.message_box_mid{position:absolute;top:30%;right:50%;margin-right:-118px;}
 .message{position:absolute;top:70px;width:196px;height:44px;line-height:18px;padding:16px 20px 0 20px;margin:10px 0;background: url("../img/mesbg.png") no-repeat;word-break: break-all;word-wrap: break-word;}
-.message_error{background: url("../img/mesbg_error.png") no-repeat; }
+.message_error{background: url("../img/mesbg_error.png") no-repeat;}
 .off{position: absolute;top:9px;right:8px;font-weight: bold;font-size:26px;color:#aaa;cursor: pointer;}
 .pop_tip .off{width:27px;height:25px;background-position: -199px -215px;top:0;}
 .message_box_mid .message{background: url("../img/mesbg_2.png") no-repeat;}
-.message_box_mid .message_error{background: url("../img/mesbg_error2.png") no-repeat; }
+.message_box_mid .message_error{background: url("../img/mesbg_error2.png") no-repeat;}
+.message_box_mid .message_waring{background: url("../img/mesbg_waring.png") no-repeat;}
 /*input*/
 .int{height:26px;line-height:normal;border:1px solid #ccc;border-radius:1px;text-indent:5px;color: #aaa;width: 100%;outline: 0;}
 .border{border:1px solid #ccc;}
 .int-txt{line-height:18px;width:100%;}
 .has-general{position: relative;}
 .has-general, .has-success, .has-warning, .has-error{position: relative;}
-.has-general label.control-label{width:99%;z-index: 2;height:25px;line-height:25px;background-color: #fff;position: absolute;top:1px;left:1px;text-align: left;text-indent:5px;cursor:default;color:#aaa;}
+.has-general label.control-label{z-index: 2;height:25px;line-height:25px;background-color: #fff;position: absolute;top:1px;left:1px;right:1px;text-align: left;text-indent:5px;cursor:default;color:#aaa;}
 .has-success input{color: #468847;}
 .has-success input,.has-success input,.has-success input{border-color:#468847;}
 .has-warning label.control-label{color:#c09853;display: block;}
@@ -402,7 +408,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 
 .check_label input,.check_label{margin-right:5px;}
 .check_label{vertical-align:-3px;margin-right:10px;}
-label.tips{position:absolute;right:0;top:0;height:25px;line-height:25px;padding:0 3px;background-color:#fff;color:#999;}
+label.tips{position:absolute;right:0;top:1px;height:25px;line-height:25px;padding:0 3px;background-color:#fff;color:#999;}
 label.tips_txt{left:0;right:inherit;}
 .int:focus{border-color:#347cdc;}
 .has-error input:focus{border-color:#b94a48;}

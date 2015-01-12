@@ -16,6 +16,7 @@
             <div class="top_nav top_nav_bg aligncenter font14">
                 <a href="javascript:;" class="current">统计分析</a>
                 <a href="javascript:;">统计记录</a>
+                <a href="javascript:;">统计权限</a>
                 <a href="javascript:;" class="new_btn bg-waring font12 ie-css3">退出统计</a>
             </div>
         </div>
@@ -262,8 +263,11 @@
                             <table class="list_table">
                                 <thead>
                                     <tr>
-                                        <th class="width-140"><div class="inner_td">合计</div></th>
-                                        <th><div class="inner_td width-80">姓名</div></th>
+                                        <th colspan="2" class="no_indent">
+                                            <div class="inner_td alignright nopadding " style="width:100%;">
+                                                <a href="javascript:;" class="color-3 export marr10"><img src="../img/fu_xlsx.gif">导出为EXCEL</a>
+                                            </div>
+                                        </th>
                                     </tr>
                                 </thead>
                             </table>
@@ -277,6 +281,7 @@
         </div>
         <!--主要内容over-->
         <!--右侧检索条件begin-->
+        <span class="Icon right_arrow" title="展开"></span>
         <div class="search_r">
             <div class="Re_item clearfix">
                 <span class="inlineblock marl10 width-60 alignright">起止日期：</span>
@@ -316,24 +321,39 @@
                 </div>
             </div>
             <div class="Re_item">
-                <table class="account_tab">
-                    <tr>
-                        <th class="aligntop"><span class="inlineblock width-60 alignright">列头：</span></th>
-                        <td>
-                            <span class="check checked"><i class="Icon ico-check"></i>部门</span>
-                            <span class="check"><i class="Icon ico-check"></i>姓名</span>
-                            <span class="check"><i class="Icon ico-check"></i>职位</span>
-                            <span class="check"><i class="Icon ico-check"></i>金额</span>
-                            <span class="check"><i class="Icon ico-check"></i>日期</span>
-                            <span class="check"><i class="Icon ico-check"></i>类型</span>
-                        </td>
-                    </tr>
-                </table>
+                <p><span class="inlineblock marl10">选择列头：</span></p>
+                <div class="jscroll mart10" style="height:150px;">
+                    <table class="account_tab">
+                        <tr>
+                            <td>
+                                <span class="check checked"><i class="Icon ico-check"></i>部门</span>
+                                <span class="check"><i class="Icon ico-check"></i>姓姓名姓名名</span>
+                                <span class="check"><i class="Icon ico-check"></i>职位</span>
+                                <span class="check"><i class="Icon ico-check"></i>金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>金额</span>
+                                <span class="check"><i class="Icon ico-check"></i>日期</span>
+                                <span class="check"><i class="Icon ico-check"></i>类型</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-            <div class="Re_item">
-                <table class="account_tab">
+            <div class="Re_item" style="padding-top:0;">
+                <p><span class="inlineblock marl10">统计：</span></p>
+                <table class="account_tab mart10">
                     <tr>
-                        <th class="aligntop"><span class="inlineblock width-60 alignright">统计：</span></th>
                         <td>
                             <span class="check checked"><i class="Icon ico-check"></i>部门</span>
                             <span class="check"><i class="Icon ico-check"></i>姓名</span>
@@ -347,14 +367,18 @@
             </div>
             <div class="Re_item">
                 <span class="inlineblock marl10 width-60 alignright">分组：</span>
-                <div class="search ie-css3 select width-180 inlineblock "><!--加 current，显示下拉列表框-->
+                <div class="search ie-css3 select current width-180 inlineblock "><!--加 current，显示下拉列表框-->
                     <span class="Choosed">申请部门</span>
                     <span class="ico-select"><i class="Icon ico-upd"></i></span>
-                    <div class="ser_Results ie-css3">
+                    <div class="ser_Results ie-css3" style="bottom:25px;top:inherit;">
                         <div class="jscroll" style="width:170px;height:100px;">
                             <ul>
                                 <li>申请人</li>
                                 <li>申请部门</li>
+                                <li>付款方式</li>
+                                <li>付款方式</li>
+                                <li>付款方式</li>
+                                <li>付款方式</li>
                                 <li>付款方式</li>
                             </ul>
                         </div>
@@ -380,13 +404,10 @@
 <script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
 <script type="text/javascript">
     $(function() {
-        function Jscroll(){
-            $('.jscroll').jScrollPane({
-                'mouseWheelSpeed':100,
-                "showArrows":false
-            });
-        }
-        Jscroll();
+        $('.jscroll').jScrollPane({
+            'mouseWheelSpeed':100,
+            "showArrows":false
+        });
     });
 </script>
 </body>
