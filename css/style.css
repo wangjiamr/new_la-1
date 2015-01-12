@@ -158,16 +158,18 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .list_table_in{position: absolute;left:50%;margin-left:-400px;}
 .list_table{width:800px;margin:0 auto;}
 .list_table thead th{color:#fff;height:30px;background:url("../img/mask40.png") repeat;text-indent:20px;}
-.list_table tbody td{border-bottom:1px solid #c7c7c7;background:#fff;color:#444;}
-.list_table tbody tr:last-child td{border-bottom:0;}
-.list_table tbody tr:hover td,.list_table tbody tr.current td{background:#f2f2f2;}
+.list_table tbody td,.list_table tbody th{border-bottom:1px solid #c7c7c7;background:#fff;color:#444;}
+.list_table tbody tr:last-child td,.list_table tbody tr:last-child th{border-bottom:0;}
+.list_table tbody tr:hover td,.list_table tbody tr.current td,.list_table tbody tr:hover th{background:#f2f2f2;}
 .list_table tbody div.inner_td{height:40px;line-height:40px;padding-left:20px;position: relative;}
 .list_table tbody div.inner_td span.txt_hidden{vertical-align: middle;}
+.list_table tbody th{border-right:1px solid #ccc;height:40px;}
 .list_table_tj,.list_table_tj tbody div.inner_td{overflow: hidden;}
 .list_table tbody div.inner_td .UserImg,.Approval .UserImg{vertical-align:-10px;margin-right:5px;}
 .list_table_tj tbody div.inner_td span.block{height:20px;line-height:20px;margin-top:10px;border-right: 1px solid #aaa;}
+.export img{width:24px;height:24px;vertical-align: -5px;}
 .border_l{display:inline-block;height:24px;line-height:24px;border-left:1px solid #d9d9db;padding-left:10px;}
-.Approval .UserImg,.turn_box .UserImg{background:url("../img/ico.png") -195px -60px;cursor: pointer;}
+.Approval .UserImg,.turn_box .UserImg,.inner_td .UserImg{background:url("../img/ico.png") -195px -60px;cursor: pointer;}
 .turn_box .relative,.Approval .relative{margin:5px;}
 .Approval .relative{margin:5px 2px;}
 .Approval table.Approval_turn{width:100%;margin:10px 0;height:auto;}
@@ -275,9 +277,13 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .form_bottom{height:49px;border-top:1px solid #d9d9d9;position: absolute;left:0;right:0;bottom:0;background:#f5f5f5;}
 /*.form_logo{width:30px;height:30px;position: absolute;left:0;top:-1px;font-size:20px;color:#fff;}*/
 /*.form_logo img{width:20px;margin-top:5px;}*/
-.AppMakeBtn .form_logo{width:40px;height:41px;position: relative;color: #fff;font-size: 22px;}
-.AppMakeBtn .form_logo em{font-size:26px;position: relative;bottom:-7px;}
-.AppMakeBtn .form_logo img{width:40px;height:40px;vertical-align: bottom;position: absolute;top:0;left:0;margin-top: 0;z-index: -1;}
+.form_logo{width:40px;height:41px;position: relative;color: #fff;font-size: 22px;}
+.form_logo em{font-size:26px;position: relative;bottom:-7px;}
+.form_logo img{width:40px;height:40px;vertical-align: bottom;position: absolute;top:0;left:0;margin-top: 0;z-index: -1;}
+.inner_td .form_logo{z-index:1;}
+.inner_td .form_logo img{height:41px;}
+.inner_td .form_logo em{bottom:-3px;}
+
 .form_edit_box .form-main{margin:20px 30px 0 40px;}
 .form_bottom .Btn{height:30px;line-height:30px;width:80px;margin:9px 5px 0;}
 .form_bottom .Btn.Btn-commit{background:#54c34e;}
@@ -375,7 +381,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .data_right ul li a.a_delete{color:#e9505f;margin-left:10px;}
 .data_link .jscroll{height:100%;}
 .data_link .data_right .jscroll{margin-right:5px;}
-.data_right p.alignright{line-height:39px;height:39px;border-bottom:1px solid #aaa;margin:0 20px;}
+.data_link p.alignright{line-height:39px;height:39px;border-bottom:1px solid #aaa;margin:0 20px;}
 .data_link .MakeBtn{width:40px;right: -50px;}
 .data_link .Icon{vertical-align: middle;left:-10px;top:-1px;}
 .data_link .MakeBtn .edit{border:0;background:#347cdc;}
