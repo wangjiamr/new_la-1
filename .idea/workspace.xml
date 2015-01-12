@@ -43,23 +43,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="383" column="10" selection-start="27077" selection-end="27077" vertical-scroll-proportion="0.0" vertical-offset="10034" max-vertical-offset="13473">
+            <state line="284" column="50" selection-start="20176" selection-end="20176" vertical-scroll-proportion="0.39111593" vertical-offset="7307" max-vertical-offset="13473">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="数据关联.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="数据关联.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/数据关联.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="46" selection-start="3024" selection-end="3024" vertical-scroll-proportion="0.6857464" vertical-offset="658" max-vertical-offset="2430">
+            <state line="63" column="20" selection-start="2998" selection-end="2998" vertical-scroll-proportion="-19.03125" vertical-offset="660" max-vertical-offset="2025">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -86,7 +87,7 @@
       <file leaf-file-name="统计权限.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/统计权限.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="167" column="61" selection-start="9797" selection-end="9797" vertical-scroll-proportion="3.8125" vertical-offset="3767" max-vertical-offset="4698">
+            <state line="159" column="68" selection-start="9296" selection-end="9296" vertical-scroll-proportion="-7.15625" vertical-offset="3200" max-vertical-offset="4698">
               <folding>
                 <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -155,8 +156,8 @@
         <option value="$PROJECT_DIR$/template/统计权限.html" />
         <option value="$PROJECT_DIR$/css/global.css" />
         <option value="$PROJECT_DIR$/template/统计分析.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/template/数据关联.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -646,19 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/统计权限.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="61" selection-start="9797" selection-end="9797" vertical-scroll-proportion="3.8125" vertical-offset="3767" max-vertical-offset="4698">
-          <folding>
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="145" column="10" selection-start="5653" selection-end="5662" vertical-scroll-proportion="-19.52" vertical-offset="3427" max-vertical-offset="16794">
@@ -688,21 +676,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="383" column="10" selection-start="27077" selection-end="27077" vertical-scroll-proportion="0.0" vertical-offset="10034" max-vertical-offset="13473">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/数据关联.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="46" selection-start="3024" selection-end="3024" vertical-scroll-proportion="0.6857464" vertical-offset="658" max-vertical-offset="2430">
+        <state line="63" column="20" selection-start="2998" selection-end="2998" vertical-scroll-proportion="-19.03125" vertical-offset="660" max-vertical-offset="2025">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#li#0;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#li#1;tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/统计权限.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="68" selection-start="9296" selection-end="9296" vertical-scroll-proportion="-7.15625" vertical-offset="3200" max-vertical-offset="4698">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="284" column="50" selection-start="20176" selection-end="20176" vertical-scroll-proportion="0.39111593" vertical-offset="7307" max-vertical-offset="13473">
+          <folding />
         </state>
       </provider>
     </entry>
