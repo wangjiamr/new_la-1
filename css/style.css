@@ -282,10 +282,12 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .form_logo img{width:40px;height:40px;vertical-align: bottom;position: absolute;top:0;left:0;margin-top: 0;z-index: -1;}
 .inner_td .form_logo{z-index:1;width:32px;height:32px;top:4px;right:-4px;}
 .inner_td .form_logo img{width:32px;height:32px;}
-.inner_td .form_logo em{font-size:20px;position:absolute;top:50%;left:50%;margin:-10px 0 0 -10px;}
+.inner_td .form_logo em,.form_top .form_logo em{font-size:20px;position:absolute;top:50%;left:50%;margin:-10px 0 0 -10px;z-index: 2;}
 .form_edit_box .form-main{margin:20px 30px 0 40px;}
 .form_bottom .Btn{height:30px;line-height:30px;width:80px;margin:9px 5px 0;}
 .form_bottom .Btn.Btn-commit{background:#54c34e;}
+.form_top .form_logo{width:28px;height:28px;}
+.form_top .form_logo img{width:28px;height:28px;z-index: 1;}
 /*编辑流程*/
 .process_out{width:1100px;}
 .alignright .Btn{margin-top:-1px;}
@@ -387,8 +389,8 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .data_link .MakeBtn .edit{border:0;background:#347cdc;}
 .data_link .MakeBtn a,.data_link li:hover .MakeBtn a{display:inline-block;margin:0;}
 .data_left li{padding-right:45px;}
-.data_left .has-general{width:150px;left:20px;top:6px;}
-.data_left .has-general .int{width:148px;}
+.data_link .has-general{width:140px;left:20px;top:6px;}
+.data_link .has-general .int{width:138px;}
 .data_link ul li .ico-arrow{width:7px;height:12px;background-position:-70px -478px;position: absolute;left:inherit;right:-1px;top:15px;display: none;}
 .data_link ul li.current .ico-arrow{display: inline-block;}
 .data_left .jspVerticalBar{display: none;}
