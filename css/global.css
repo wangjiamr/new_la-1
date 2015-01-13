@@ -246,7 +246,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-share{background-position: -128px -214px;}
 .ico-sendto{background-position: -195px -249px;}
 .ico-turn{background-position: -195px -268px;}
-.ico-delete{width: 7px;height:7px;background-position: -71px -128px;}
+.ico-delete{width: 7px;height:7px;background-position: -71px -128px;position: absolute;top: 50%;left:50%;margin:-3px 0 0 -3px;}
 .ico-refresh{width:12px;height:10px;background-position: -131px -50px;}
 .R-btns .ico-refresh{width:12px;height:12px;background-position: -177px -249px;}
 
@@ -281,6 +281,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-down2{background-position:-155px -198px;}
 .ico-down3,.ico-look{width:50px;height:50px;background-position:-160px -378px;}
 .ico-look{background-position:-110px -378px;}
+.ico-look2{width:40px;height:40px;background-position:-114px -382px;}
 .MakeBtn .ico-down3{width:25px;height:25px;background-position:-174px -391px;}
 /*.ico-up:hover{background-position:-155px -211px;}*/
 /*.ico-down2:hover{background-position:-155px -225px;}*/
@@ -305,7 +306,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .ico-lock,.ico-unlock{width:16px;height:16px;background-position: -131px -16px;margin-left:3px;}
 .ico-lock{top:3px;margin-right:0;}
 .ico-unlock{background-position: -131px 0;top:6px;}
-.ico-down{width:16px;height:14px;background-position:-70px -403px;top:3px;}
+.ico-down{width:16px;height:14px;background-position:-70px -403px;position: absolute;top: 50%;left:50%;margin:-7px 0 0 -8px;}
 .ico-p-add,.ico-p-minus{width:15px;height:15px;background-position: -155px -60px;}
 .ico-p-minus{background-position: -155px -75px;}
 .ico-arrow-top{width:17px;height:12px;background-position:-131px -75px;padding:0;}
