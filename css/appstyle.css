@@ -297,6 +297,10 @@ td .search{width:auto;}
 .form_tab td .td_inner .options p.has_two label{width:40%;}
 .form_tab td .td_inner .options p.has_three label{width:30%;}
 .form_tab td .td_inner .options p.has_four label{width:22%;}
+.form-top span.options label{display: inline-block;height:18px;line-height:18px;overflow: hidden;}
+
+
+
 .form_tab td .td_inner input.int,.module input.int{height:26px;line-height:normal;border:1px solid #ccc;border-radius:2px;}
 .form_tab td.choose .td_inner,.form_tab td.choose,.form_tab td:hover .td_inner,.form_tab td:hover{background:#edf5fe;}
 .form_tab .td_inner span.radio{padding-right:20px;}
