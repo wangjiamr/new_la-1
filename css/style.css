@@ -171,13 +171,14 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .border_l{display:inline-block;height:24px;line-height:24px;border-left:1px solid #d9d9db;padding-left:10px;}
 .Approval .UserImg,.turn_box .UserImg,.inner_td .UserImg{background:url("../img/ico.png") -195px -60px;cursor: pointer;}
 .turn_box .relative,.Approval .relative{margin:5px;}
+.User_float{float: left;margin-top:5px;}
 .Approval .relative{margin:5px 2px;}
 .Approval table.Approval_turn{width:100%;margin:10px 0;height:auto;}
 .Approval table.Approval_turn tr.first th,.Approval table.Approval_turn tr.first td{border-bottom:1px dashed #bbb;line-height:50px;}
 .Approval table.Approval_turn textarea{width:398px;height:88px;border:1px solid #ccc;border-radius:2px;padding:5px;}
 .list_table tbody div.inner_td .UserImg,.list_table tbody div.inner_td .UserImg img{width:30px;height:30px;}
 .Approval table.Approval_turn .Btn-normal{margin-top:86px;}
-.prompt_box{width:200px;position: absolute;padding:11px 0 4px 0;z-index: 20;left:-50px;top:30px;}
+.prompt_box{width:200px;position: absolute;padding:11px 0 4px 0;z-index: 20;left:-50px;top:30px;transition:0.5s;-webkit-transition:0.5s;}
 .prompt_top,.prompt_bt{display:block;width:200px;height:11px;background-position:0 -690px;position: absolute;left:0;}
 .prompt_top{top:0;}
 .prompt_bt{height:4px;bottom:0;background-position:0 -703px;}
