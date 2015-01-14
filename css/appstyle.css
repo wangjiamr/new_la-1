@@ -259,6 +259,7 @@ td .search{width:auto;}
 .form-edit label input{margin-right:5px;}
 .form-edit .search input,.form-edit .search{height:26px;line-height:normal;}
 .form-edit .search button{padding:0;}
+.form-edit .int,.form-txt .int{border-width:0 0 1px 0;}
 /*编辑组件*/
 .form_left{width:680px;padding:0 10px;;background:url("../img/mask50.png") repeat;min-height:100%;position: relative;}
 .form_right{width:300px;height:100%;min-height: auto;background:#fff;overflow:hidden;}
