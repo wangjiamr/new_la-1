@@ -406,7 +406,7 @@ li.current .ico-07,.NewBar ul li:hover .ico-07{background-position:-170px -144px
 .has-warning label.control-label,.has-error label.control-label{display: inline-block;}
 .has-general label.control-label.top_tips{border-radius:3px;color:#fff;top:-30px;background:#000;opacity: 0.3;filter:Alpha(Opacity=30);width:200px;}
 .has-general label.control-label.top_tips em{display:block;position: absolute;border-left:6px solid transparent;border-right:6px solid transparent;border-top:8px solid #000;bottom:-8px;left:20px;}
-
+.options.has-general{outline:1px dotted #b94a48;padding-left:5px;}
 
 .check_label input,.check_label{margin-right:5px;}
 .check_label{vertical-align:-3px;margin-right:10px;}

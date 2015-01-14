@@ -298,7 +298,7 @@ td .search{width:auto;}
 .form_tab td .td_inner .options p.has_two label{width:40%;}
 .form_tab td .td_inner .options p.has_three label{width:30%;}
 .form_tab td .td_inner .options p.has_four label{width:22%;}
-.form-top span.options label{display: inline-block;height:18px;line-height:18px;overflow: hidden;}
+.form-top div.options label{display: inline-block;height:18px;line-height:18px;overflow: hidden;}
 
 
 
