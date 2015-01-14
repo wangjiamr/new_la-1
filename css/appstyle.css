@@ -248,7 +248,7 @@ td .search{width:auto;}
 /*填写表单*/
 .form-edit{margin:0 auto;}
 .form-top,.form-txt{width:100%;}
-.form-top th{font-size:14px;height:60px;width:100px;text-align: left;}
+.form-top th{font-size:14px;height:45px;width:100px;text-align: left;}
 .form-top td{color:#888;padding-right:20px;}
 .form-txt thead th,.form-txt tfoot th{background-color:#f2f2f2;line-height:40px;padding-left:10px;}
 .form-txt td{height:40px;padding-left:10px;color:#666;padding-top:10px;}
