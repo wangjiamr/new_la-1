@@ -408,6 +408,7 @@ td .search{width:auto;}
 .error_box a:hover .ico-back{background-position:-173px -1px;}
 .error_box a:hover .ico-index{background-position:-194px -1px;}
 .error_box a:hover{color:#347cdc;}
+.error_box p img{width:400px;}
 .Extension{padding:35px 10px;}
 .Extension .line{border-color:#ccc;padding:20px 0;}
 .Ex_item{width:440px;height:100%;padding-left:20px;border-right:1px solid #eee;line-height:24px;}
