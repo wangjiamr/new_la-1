@@ -287,8 +287,8 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .form_edit_box .form-main{margin:20px 30px 0 40px;}
 .form_bottom .Btn{height:30px;line-height:30px;width:80px;margin:9px 5px 0;}
 .form_bottom .Btn.Btn-commit{background:#54c34e;}
-.form_top .form_logo{width:28px;height:28px;}
-.form_top .form_logo img{width:28px;height:28px;z-index: 1;}
+.form_top .form_logo{width:28px;height:28px;margin-top:-1px;}
+.form_top .form_logo img{width:28px;height:29px;z-index: 1;}
 /*编辑流程*/
 .process_out{width:1100px;}
 .alignright .Btn{margin-top:-1px;}
