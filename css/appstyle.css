@@ -139,10 +139,10 @@ td .search{width:auto;}
     *margin-top:expression((400 - this.height )/2);  /* CSS表达式用来兼容IE6/IE7 */
     vertical-align:middle;
 }
-.Approval_inner .Annex_list{position:relative;width:100%;background:none;border:0;}
-.Approval_inner .Annex_list li{width:240px;float: left;border:0;margin:10px 13px 0 0;}
-.Approval_inner .Annex_list li p.txt_hidden{color:#333;width:180px;}
-.Approval_inner .Annex_list li a{color:#347cdc;}
+.Approval_inner .Annex_list,.form-top .Annex_list{position:relative;width:100%;background:none;border:0;}
+.Approval_inner .Annex_list li,.form-top .Annex_list li{width:240px;float: left;border:0;margin:10px 13px 0 0;}
+.Approval_inner .Annex_list li p.txt_hidden,.form-top .Annex_list li p.txt_hidden{color:#333;width:180px;}
+.Approval_inner .Annex_list li a,.form-top .Annex_list li a{color:#347cdc;}
 .edit{border:1px solid #347cdc;}
 .process_box{background:#fff;position: absolute;bottom:5px;left:50px;width:182px;}
 .process_box .process_bar{width:100px;display:inline-block;margin-right:10px;bottom:-4px;background:#eee;}
@@ -248,7 +248,7 @@ td .search{width:auto;}
 /*填写表单*/
 .form-edit{margin:0 auto;}
 .form-top,.form-txt{width:100%;}
-.form-top th{font-size:14px;height:45px;width:100px;text-align: left;}
+.form-top th{font-size:12px;height:45px;width:100px;text-align: left;}
 .form-top td{color:#888;padding-right:20px;}
 .form-txt thead th,.form-txt tfoot th{background-color:#f2f2f2;line-height:40px;padding-left:10px;}
 .form-txt td{height:40px;padding-left:10px;color:#666;padding-top:10px;}
