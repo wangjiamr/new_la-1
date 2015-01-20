@@ -388,6 +388,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .data_link p.alignright{line-height:39px;height:39px;border-bottom:1px solid #aaa;margin:0 20px;}
 .data_link .MakeBtn{width:40px;right: -50px;z-index: 2;}
 .data_link .Icon.ico-delete{position: absolute;top: 50%;left:50%;margin:-8px 0 0 -8px;}
+.item_box .Icon.ico-delete{position: relative;top:-2px;left:0;margin:0;}
 .data_link .MakeBtn .edit{border:0;background:#347cdc;}
 .data_link .MakeBtn a,.data_link li:hover .MakeBtn a{display:inline-block;margin:0;}
 .data_left li{padding-right:45px;}
