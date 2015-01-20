@@ -11,7 +11,7 @@
 .top_nav a.new_btn{height:24px;line-height:24px;color:#fff;margin:0 5px;margin-top:8px;}
 .top_nav_bg a{padding:0 20px;}
 .top_nav_bg a.current{color:#fff;background-color:#347cdc;}
-.top_set{min-width:100px;height:24px;padding-left:10px;border-left:1px solid #505052;position: relative;top:8px;*margin-top:-40px;}
+.top_set{min-width:70px;height:24px;padding-left:10px;border-left:1px solid #505052;position: relative;top:8px;*margin-top:-40px;}
 .top_set a{color:#fff;margin:0 6px 0 4px;}
 .top_set a.current{color:#347cdc;}
 .ico-bg,.ico-home2,.ico-search,.ico-buy{width:22px;height:22px;background-position:-155px -428px;margin:0 5px 0 5px;}
@@ -337,7 +337,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .Wallpaper_box li img{width:auto;height:100px;}
 .back_md{width:153px;right:0;text-align: center;background: url("../img/mask70.png") repeat;}
 .back_md li{display: block;}
-.back_md li a{display: block;height:50px;line-height:50px;color:#fff;}
+.back_md li a{display: block;height:40px;line-height:40px;color:#fff;}
 .back_md li a:hover{background: url("../img/mask70.png") repeat;}
 /*统计*/
 .high_table{width:800px;margin:0 auto;overflow: hidden;}
@@ -440,7 +440,9 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
+.icon-set:before {
+	content: "\e023";
+}
 .icon-home:before {
 	content: "\e606";
 }
