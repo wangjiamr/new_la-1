@@ -11,7 +11,7 @@
 .top_nav a.new_btn{height:24px;line-height:24px;color:#fff;margin:0 5px;margin-top:8px;}
 .top_nav_bg a{padding:0 20px;}
 .top_nav_bg a.current{color:#fff;background-color:#347cdc;}
-.top_set{min-width:100px;height:24px;padding-left:10px;border-left:1px solid #505052;position: relative;top:8px;*margin-top:-40px;}
+.top_set{min-width:70px;height:24px;padding-left:10px;border-left:1px solid #505052;position: relative;top:8px;*margin-top:-40px;}
 .top_set a{color:#fff;margin:0 6px 0 4px;}
 .top_set a.current{color:#347cdc;}
 .ico-bg,.ico-home2,.ico-search,.ico-buy{width:22px;height:22px;background-position:-155px -428px;margin:0 5px 0 5px;}
@@ -171,13 +171,15 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .border_l{display:inline-block;height:24px;line-height:24px;border-left:1px solid #d9d9db;padding-left:10px;}
 .Approval .UserImg,.turn_box .UserImg,.inner_td .UserImg{background:url("../img/ico.png") -195px -60px;cursor: pointer;}
 .turn_box .relative,.Approval .relative{margin:5px;}
+.User_float{float: left;margin-top:5px;}
 .Approval .relative{margin:5px 2px;}
 .Approval table.Approval_turn{width:100%;margin:10px 0;height:auto;}
 .Approval table.Approval_turn tr.first th,.Approval table.Approval_turn tr.first td{border-bottom:1px dashed #bbb;line-height:50px;}
 .Approval table.Approval_turn textarea{width:398px;height:88px;border:1px solid #ccc;border-radius:2px;padding:5px;}
-.list_table tbody div.inner_td .UserImg,.list_table tbody div.inner_td .UserImg img{width:30px;height:30px;}
+.list_table tbody div.inner_td .UserImg,.list_table tbody div.inner_td .UserImg img,.process_li .UserImg,.process_li .UserImg img{width:30px;height:30px;}
+.process_li .UserImg{vertical-align: -9px;margin-right:5px;}
 .Approval table.Approval_turn .Btn-normal{margin-top:86px;}
-.prompt_box{width:200px;position: absolute;padding:11px 0 4px 0;z-index: 20;left:-50px;top:30px;}
+.prompt_box{width:200px;position: absolute;padding:11px 0 4px 0;z-index: 20;left:-50px;top:30px;transition:0.5s;-webkit-transition:0.5s;}
 .prompt_top,.prompt_bt{display:block;width:200px;height:11px;background-position:0 -690px;position: absolute;left:0;}
 .prompt_top{top:0;}
 .prompt_bt{height:4px;bottom:0;background-position:0 -703px;}
@@ -262,7 +264,7 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .nav_normal a{border:0;width:50%;}
 .nav_normal a.current,.nav_normal a:hover{color:#59a7f9;background:none;}
 /*填写表单*/
-.form_edit_box{width:760px;background:#fff;position:absolute;top:40px;bottom:40px;left:50%;margin-left:-380px;}
+.form_edit_box{width:780px;background:#fff;position:absolute;top:0;bottom:0;left:50%;margin-left:-390px;}
 .form_in{width:100%;height:100%;position: relative;}
 .form_in .jscroll{width:100%;position: absolute;left:0;top:30px;bottom:50px;right:0;}
 .form_in .jscroll .jspDrag{background:#aaa;}
@@ -286,8 +288,8 @@ src: url('TitilliumTitle01-Thin.eot?#iefix') format('embedded-opentype'), /* IE6
 .form_edit_box .form-main{margin:20px 30px 0 40px;}
 .form_bottom .Btn{height:30px;line-height:30px;width:80px;margin:9px 5px 0;}
 .form_bottom .Btn.Btn-commit{background:#54c34e;}
-.form_top .form_logo{width:28px;height:28px;}
-.form_top .form_logo img{width:28px;height:28px;z-index: 1;}
+.form_top .form_logo{width:28px;height:28px;margin-top:-1px;}
+.form_top .form_logo img{width:28px;height:29px;z-index: 1;}
 /*编辑流程*/
 .process_out{width:1100px;}
 .alignright .Btn{margin-top:-1px;}
@@ -335,7 +337,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .Wallpaper_box li img{width:auto;height:100px;}
 .back_md{width:153px;right:0;text-align: center;background: url("../img/mask70.png") repeat;}
 .back_md li{display: block;}
-.back_md li a{display: block;height:50px;line-height:50px;color:#fff;}
+.back_md li a{display: block;height:40px;line-height:40px;color:#fff;}
 .back_md li a:hover{background: url("../img/mask70.png") repeat;}
 /*统计*/
 .high_table{width:800px;margin:0 auto;overflow: hidden;}
@@ -386,6 +388,7 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 .data_link p.alignright{line-height:39px;height:39px;border-bottom:1px solid #aaa;margin:0 20px;}
 .data_link .MakeBtn{width:40px;right: -50px;z-index: 2;}
 .data_link .Icon.ico-delete{position: absolute;top: 50%;left:50%;margin:-8px 0 0 -8px;}
+.item_box .Icon.ico-delete{position: relative;top:-2px;left:0;margin:0;}
 .data_link .MakeBtn .edit{border:0;background:#347cdc;}
 .data_link .MakeBtn a,.data_link li:hover .MakeBtn a{display:inline-block;margin:0;}
 .data_left li{padding-right:45px;}
@@ -437,7 +440,9 @@ div.Btn:hover,div.Btn,div.Btn.current{background:none!important;padding-left:10p
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
+.icon-set:before {
+	content: "\e023";
+}
 .icon-home:before {
 	content: "\e606";
 }

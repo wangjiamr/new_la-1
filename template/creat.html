@@ -276,7 +276,7 @@
                                 <div class="td_inner">
                                     <a href="javascript:;" class="Icon ico-all" title="选择整行"><em></em></a>
                                     <span class="font12">单选框</span>
-                                    <span>
+                                    <span class="options">
                                         <label><input type="radio" name="qb" value="">男</label>
                                         <label><input type="radio" name="qb" value="">男</label>
                                         <label><input type="radio" name="qb" value="">男</label>
@@ -310,11 +310,15 @@
                             <td>
                                 <div class="td_inner">
                                     <a href="javascript:;" class="Icon ico-all" title="选择整行"><em></em></a>
-                                    <span class="font12">单选框</span>
-                                    <span>
-                                        <label><input type="radio" name="qb" value="">男</label>
-                                        <label><input type="radio" name="qb" value="">男</label>
-                                        <label><input type="radio" name="qb" value="">男</label>
+                                    <span class="font12 floatleft">单选框</span>
+                                    <span class="inlineblock" style="width: 200px;">
+                                        <div class="options mart10">
+                                            <label style="width: 50px"><input type="radio" name="qb" value="">男男男男男男男男男男男男男男</label>
+                                            <label style="width: 50px"><input type="radio" name="qb" value="">男</label>
+                                            <label style="width: 50px"><input type="radio" name="qb" value="">男</label>
+                                            <label style="width: 50px"><input type="radio" name="qb" value="">男</label>
+                                            <label style="width: 50px"><input type="radio" name="qb" value="">男</label>
+                                        </div>
                                     </span>
                                 </div>
                             </td>
@@ -346,7 +350,7 @@
             <div class="module_out">
                 <!--主要设置over-->
                 <!--基本设置begin-->
-                <div class="module_box p-top10" style="display:;">
+                <div class="module_box p-top10" style="display:none;">
                     <!--<p class="color-8 p-top20">请先选择组件再进行编辑</p>-->
                     <div class="module mart20">
                         <p class="font14">必填项</p>
@@ -573,14 +577,38 @@
                 </div>
                 <!--添加组件over-->
                 <!--编辑组件begin-->
-                <div class="module_box" style="display:none;">
+                <div class="module_box" style="display:;">
                     <div class="module mart20">
-                        <p class="font14">标题</p>
+                        <p class="font14">标题<img src="../img/data_demo.jpg" class="marl20" style="vertical-align: middle;"></p>
                         <p class="mart15 marl10"><input class="int" type="text"></p>
                     </div>
                     <div class="module mart20">
                         <p class="font14">描述文字<a href="#" class="add font12 marl10">+添加链接</a></p>
                         <p class="mart15 marl10"><textarea class="int"></textarea></p>
+                    </div>
+                    <div class="module mart20">
+                        <p class="font14">必填设置</p>
+                        <div class="mart15 marl10">
+                            <input type="text" class="int width-140">
+                            <select class="int width-80 marl5">
+                                <option>验证格式</option>
+                                <option>邮箱</option>
+                                <option>手机号码</option>
+                                <option>邮编</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="module mart5 marl10">
+                        <div class="font14">
+                            <span>数据源</span>
+                            <select class="int marl15 width-80">
+                                <option>验证格式</option>
+                                <option>邮箱</option>
+                                <option>手机号码</option>
+                                <option>邮编</option>
+                           </select>
+                        </div>
+                        <p class="mart5"><textarea class="int" style="height: 50px;"></textarea></p>
                     </div>
                     <div class="module mart20">
                         <p class="font14">必填设置</p>

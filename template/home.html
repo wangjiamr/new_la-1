@@ -21,13 +21,13 @@
                 <a href="javascript:;">审批</a>
                 <a href="javascript:;">经办</a>
                 <a href="javascript:;">传阅</a>
+                <a href="javascript:;">搜索</a>
                 <a href="javascript:;" class="new_btn font12 ie-css3">新建申请</a>
             </div>
             <div class="top_set floatright">
-                <a href="javascript:;" class="Icon ico-buy"></a>
                 <a href="javascript:;" class="Icon ico-bg"></a>
-                <a href="javascript:;" class="font25 current"><span class="icon-home"></span></a>
-                <a href="javascript:;" class="font22"><span class="icon-search"></span></a>
+                <a href="javascript:;" class="font25 current"><span class="icon-set"></span></a>
+                <!--<a href="javascript:;" class="font22"><span class="icon-search"></span></a>-->
             </div>
             <div class="User floatright marr20">
                 <span class="UserImg inlineblock ie-css3"><img src="../img/1.png"></span>
@@ -43,6 +43,14 @@
         <!--二级菜单over-->
         <!--返回明道begin-->
         <ul class="back_md" style="display: ;">
+            <li><a href="#">创建表单</a></li>
+            <li><a href="#">角色管理</a></li>
+            <li><a href="#">统计分析</a></li>
+            <li><a href="#">表单管理</a></li>
+            <li><a href="#">流程管理</a></li>
+            <li><a href="#">日志</a></li>
+            <li><a href="#">数据关联</a></li>
+            <li><a href="#">订购信息</a></li>
             <li><a href="#">返回明道</a></li>
             <li><a href="#">安全登出</a></li>
         </ul>
@@ -68,14 +76,14 @@
             <div class="message"><p class="font14 color-white">通讯录刷新成功！</p></div>
             <div class="message message_error"><p class="font14 color-white">提交失败！</p></div>
         </div>
-        <div class="message_box message_box_mid" style="display: ;">
+        <div class="message_box message_box_mid" style="display:none;">
             <div class="message"><p class="font14 color-white">通讯录刷新成功！</p></div><!--每次 fadeout 掉一个div-->
             <div class="message message_waring"><p class="font14 color-white">警告！</p></div>
             <div class="message message_error"><p class="font14 color-white">提交失败！</p></div>
         </div>
         <!--通知状态条over-->
         <!--底部导航begin-->
-        <div class="bottom_nav clearfix">
+        <div class="bottom_nav clearfix" style="display: none;">
             <a href="javascript:;" class="inlineblock">
                 <i class="Icon ico-b1"></i>
                 <span class="block">创建表单</span>
